@@ -11,7 +11,7 @@ def scrape_chi():
     all_papers = []
 
     # iterate through each link
-    for link in links[:5]:
+    for link in links:
         print("scraping", link)
 
         # get name
@@ -29,7 +29,7 @@ def scrape_chi():
         dir_path = Path(f"chi/{name}")
         dir_path.mkdir(parents=True, exist_ok=True)
 
-        for doi in dois[1:]:
+        for doi in dois[1:3]:
             # try to scrape bibtext 10 times
             citation_text = None
             i = 0
