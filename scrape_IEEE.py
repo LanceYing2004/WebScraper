@@ -17,7 +17,7 @@ import chromedriver_autoinstaller
 
 def test_if_exists_journal(venue, venue_year):
 
-    venue_url = 'https://dblp.org/db/journals/'+venue+'/'+venue+venue_year+'.html'
+    venue_url = 'https://dblp.org/db/conf/'+venue+'/'+venue+venue_year+'.html'
     print(venue_url)
     dois = []
 
@@ -26,7 +26,7 @@ def test_if_exists_journal(venue, venue_year):
     soup = BeautifulSoup(response.content, 'html.parser')
 
     # Find all the publication starting with 'li' on the page
-    publication_elements = soup.find_all('li', class_='entry article')
+    publication_elements = soup.find_all('li', class_='entry inproceedings')
 
     # Extract the DOI value from each element and add it to the list
     for publication_element in publication_elements:
@@ -36,8 +36,8 @@ def test_if_exists_journal(venue, venue_year):
 
     return response, soup, dois
 
-def scrape_doi_from_venue_journal(dois):
-    venue_url = f'https://dblp.org/db/journals/{venue}/{venue}{year}.html'
+def scrape_doi_from_venue_journal(dois, venue, year, response):
+    venue_url = f'https://dblp.org/db/conf/{venue}/{venue}{year}.html'
     dir_path = f'venue/{venue}{year}'
 
     # Create directories
@@ -54,7 +54,6 @@ def scrape_doi_from_venue_journal(dois):
             file.write(f"{doi}\n")
 
     return None
-
 
 def setup_driver():
     chromedriver_autoinstaller.install()
@@ -114,39 +113,36 @@ def scrape_pre_content_with_abstract(doi_url, venue, year, doi_index):
     finally:
         driver.quit()
 
-# Enter the venue here
-venue = 'access'
+def scrape_IEEE(venue):
 
-# check the website on how many volumes are there, in increasing order
-i_year = np.arange(1, 12, 1, dtype=np.int16)
-years = i_year.astype(str)
-print(years)
+    i_year = np.arange(2024, 1979, -1, dtype=np.int16)
+    years = i_year.astype(str)
+    print(years)
 
+    for year in years:
+        response, soup, dois = test_if_exists_journal(venue, year)
 
-for year in years:
-    response, soup, dois = test_if_exists_journal(venue, year)
+        print(venue,year,'has ', len(dois), 'entries')
+        if len(dois) > 0:
+            print("DOI'ing... Venue:",venue, "Year:",year,". Total entry:",len(dois))
 
-    print(venue,year,'has ', len(dois), 'entries')
-    if len(dois) > 0:
-        print("DOI'ing... Venue:",venue, "Year:",year,". Total entry:",len(dois))
+            scrape_doi_from_venue_journal(dois, venue, year, response)
 
-        scrape_doi_from_venue_journal(dois)
+            doi_index = 0
+            total_doi = len(dois)
 
-        doi_index = 0
-        total_doi = len(dois)
+            for doi in dois[doi_index:]:
+                print("\n")
 
-        for doi in dois[doi_index:]:
-            print("\n")
+                print("START...DOI Index: ", doi_index, ' of ', total_doi)
+                print(doi)
 
-            print("START...DOI Index: ", doi_index, ' of ', total_doi)
-            print(doi)
+                scrape_pre_content_with_abstract(doi, venue, year, doi_index)
 
-            scrape_pre_content_with_abstract(doi, venue, year, doi_index)
+                print("END...DOI Index: ", doi_index,' of ',total_doi)
 
-            print("END...DOI Index: ", doi_index,' of ',total_doi)
-
-            doi_index+=1
+                doi_index+=1
 
 
-        rand_sleep = np.random.randint(20,40)
-        time.sleep(rand_sleep)
+            rand_sleep = np.random.randint(20,40)
+            time.sleep(rand_sleep)
