@@ -14,16 +14,10 @@ from pathlib import Path
 import re
 import os
 
-def scrape_acm(url):
 
-    # set up webdriver
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    service = Service(os.path.join(current_dir, 'chromedriver'))
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+def scrape_acm(url, driver):
+    driver.delete_all_cookies()
     driver.get(url)
-    
 
     # close cookie box
     try:
@@ -32,7 +26,7 @@ def scrape_acm(url):
         )
         cookie_close_button.click()
     except Exception as e:
-        return None
+        pass
 
     time.sleep(2)
     
@@ -57,7 +51,7 @@ def scrape_acm(url):
             except Exception as e:
                 time.sleep(1)
     except Exception as e:
-        return None
+        pass
 
     time.sleep(2)
 

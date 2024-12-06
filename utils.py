@@ -13,6 +13,19 @@ import pandas as pd
 from pathlib import Path
 import re
 import os
+import tempfile
+import shutil
+
+def initialize_driver():
+    # fix mkdtemp arguments are other function
+    tmpdir = "./cache/"
+    service = Service('./chromedriver')
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument(f"--user-data-dir={tmpdir}")
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+
+    return driver, tmpdir
 
 def scrape_dblp(venue):
     venue_url = f'https://dblp.org/db/conf/{venue}/index.html'
@@ -74,7 +87,7 @@ def scrape_conf(venue, scraper):
     all_papers = []
 
     # iterate through each link
-    for link in links[:4]:
+    for link in links:
         print("scraping", link)
 
         # get name
@@ -92,33 +105,62 @@ def scrape_conf(venue, scraper):
         dir_path = Path(f"{venue}/{name}")
         dir_path.mkdir(parents=True, exist_ok=True)
 
-        for doi in dois[1:3]:
-            # try to scrape bibtext 10 times
-            citation_text = None
-            i = 0
-            while not citation_text and i < 10:
-                citation_text = scraper(doi)
-                time.sleep(3)
-                i += 1
+        cur_papers = []
 
-            # if not failed
-            if citation_text:
-                # get doi number
-                doi_num = doi.rsplit('/', 1)[-1]
+        papers_scraped = 1
+        driver, tmpdir = initialize_driver()
+        try:
+            for doi in dois[1:]:
+                if papers_scraped % 20 == 0:
+                    driver.quit()
+                    shutil.rmtree(tmpdir, ignore_errors=True)
+                    driver, tmpdir = initialize_driver()
 
-                # add to all papers tuple
-                all_papers.append((venue, name, doi, citation_text))
+                print(doi)
+                # try to scrape bibtext 10 times
+                citation_text = None
+                i = 0
+                while not citation_text and i < 10:
+                    try:
+                        citation_text = scraper(doi, driver)
+                    except Exception as e:
+                        pass
+                    
+                    time.sleep(3)
+                    i += 1
 
-                # print to file
-                file_path = dir_path / f'{doi_num}.txt'
-                with file_path.open('w') as file:
-                    file.write(citation_text)
-            else:
-                file_path = dir_path / f'failed.txt'
-                with file_path.open('w') as file:
-                    file.write(f"FAILED: {doi}")
+                # if not failed
+                if citation_text:
+                    # get doi number
+                    doi_num = doi.rsplit('/', 1)[-1]
 
-            rand_sleep = np.random.randint(5,15)
-            time.sleep(rand_sleep)
+                    # add to all papers tuple
+                    all_papers.append((venue, name, doi, citation_text))
+                    cur_papers.append((venue, name, doi, citation_text))
+
+                    # print to file
+                    file_path = dir_path / f'{doi_num}.txt'
+                    with file_path.open('w') as file:
+                        file.write(citation_text)
+                else:
+                    file_path = dir_path / f'failed.txt'
+                    with file_path.open('w') as file:
+                        file.write(f"FAILED: {doi}")
+
+                papers_scraped += 1
+                rand_sleep = np.random.randint(5,15)
+                time.sleep(rand_sleep)
+        except Exception as e:
+            file_path = f'error.txt'
+            with file_path.open('a') as file:
+                file.write(f"ERROR SCRAPING: {link}")
+        finally:
+            driver.quit()
+            shutil.rmtree(tmpdir, ignore_errors=True)
+            papers_df = pd.DataFrame(cur_papers, columns=["venue", "year", "DOI", "bibtext"])
+            file_path = dir_path / f'papers'
+
+            papers_df.to_pickle(file_path)
+            
     
     return all_papers
