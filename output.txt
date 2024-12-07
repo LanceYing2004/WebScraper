@@ -1,0 +1,1699 @@
+C:\Users\lance\AppData\Local\Programs\Python\Python312\python.exe C:\Users\lance\PyCharmProjects\WebScraper\scraper.py 
+['2024' '2023' '2022' '2021' '2020' '2019' '2018' '2017' '2016' '2015'
+ '2014' '2013' '2012' '2011' '2010' '2009' '2008' '2007' '2006' '2005'
+ '2004' '2003' '2002' '2001' '2000' '1999' '1998' '1997' '1996' '1995'
+ '1994' '1993' '1992' '1991' '1990' '1989' '1988' '1987' '1986' '1985'
+ '1984' '1983' '1982' '1981' '1980']
+https://dblp.org/db/conf/sp/sp2024.html
+sp 2024 has  261 entries
+DOI'ing... Venue: sp Year: 2024 . Total entry: 261
+
+
+START...DOI Index:  0  of  261
+https://doi.org/10.1109/SP54263.2024.00169
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646609,
+  author={Nahapetyan, Aleksandr and Prasad, Sathvik and Childs, Kevin and Oest, Adam and Ladwig, Yeganeh and Kapravelos, Alexandros and Reaves, Bradley},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={On SMS Phishing Tactics and Infrastructure}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-16},
+  abstract={In 2022, the Anti-Phishing Working Group reported a 70% increase in SMS and voice phishing attacks. Hard data on SMS phishing is hard to come by, as are insights into how SMS phishers operate. Lack of visibility prevents law enforcement, regulators, providers, and researchers from understanding and confronting this growing problem. In this paper, we present the results of extracting phishing messages from over 200 million SMS messages posted over several years on 11 public SMS gateways on the web. From this dataset we identify 67,991 phishing messages, link them together into 35,128 campaigns based on sharing near-identical content, then identify related campaigns that share infrastructure to identify over 600 distinct SMS phishing operations. This expansive vantage point enables us to determine that SMS phishers use commodity cloud and web infrastructure in addition to self-hosted URL shorteners, their infrastructure is often visible days or weeks on certificate transparency logs earlier than their messages, and they reuse existing phishing kits from other phishing modalities. We are also the first to examine in-place network defenses and identify the public forums where abuse facilitators advertise openly. These methods and findings provide industry and researchers new directions to explore to combat the growing problem of SMS phishing.},
+  keywords={Uniform resource locators;Privacy;Regulators;Law enforcement;Phishing;Organizations;Logic gates;phishing;web security;mobile security},
+  doi={10.1109/SP54263.2024.00169},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  0  of  261
+
+
+START...DOI Index:  1  of  261
+https://doi.org/10.1109/SP54263.2024.00156
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646605,
+  author={Acharya, Bhupendra and Saad, Muhammad and Cinà, Antonio Emanuele and Schönherr, Lea and Nguyen, Hoang Dai and Oest, Adam and Vadrevu, Phani and Holz, Thorsten},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Conning the Crypto Conman: End-to-End Analysis of Cryptocurrency-based Technical Support Scams}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={17-35},
+  abstract={The mainstream adoption of cryptocurrencies has led to a surge in wallet-related issues reported by ordinary users on social media platforms. In parallel, there is an increase in an emerging fraud trend called cryptocurrency-based technical support scam, in which fraudsters offer fake wallet recovery services and target users experiencing wallet-related issues.In this paper, we perform a comprehensive study of cryptocurrency-based technical support scams. We present an analysis apparatus called HoneyTweet to analyze this kind of scam. Through HoneyTweet, we lure over 9K scammers by posting 25K fake wallet support tweets (so-called honey tweets). We then deploy automated systems to interact with scammers to analyze their modus operandi. In our experiments, we observe that scammers use Twitter as a starting point for the scam, after which they pivot to other communication channels (e.g., email, Instagram, or Telegram) to complete the fraud activity. We track scammers across those communication channels and bait them into revealing their payment methods. Based on the modes of payment, we uncover two categories of scammers that either request secret key phrase submissions from their victims or direct payments to their digital wallets. Furthermore, we obtain scam confirmation by deploying honey wallet addresses and validating private key theft. We also collaborate with the prominent payment service provider by sharing scammer data collections. The payment service provider feedback was consistent with our findings, thereby supporting our methodology and results. By consolidating our analysis across various vantage points, we provide an end-to-end scam lifecycle analysis and propose recommendations for scam mitigation.},
+  keywords={Privacy;Social networking (online);Prevention and mitigation;Communication channels;Market research;Fraud;Web sites;crytpocurrency scams;technical support scams;phishing;scams;abuse},
+  doi={10.1109/SP54263.2024.00156},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  1  of  261
+
+
+START...DOI Index:  2  of  261
+https://doi.org/10.1109/SP54263.2024.00182
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646856,
+  author={Roy, Sayak Saha and Thota, Poojitha and Naragam, Krishna Vamsi and Nilizadeh, Shirin},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={36-54},
+  abstract={The advanced capabilities of Large Language Models (LLMs) have made them invaluable across various applications, from conversational agents and content creation to data analysis, research, and innovation. However, their effectiveness and accessibility also render them susceptible to abuse for generating malicious content, including phishing attacks. This study explores the potential of using four popular commercially available LLMs, i.e., ChatGPT (GPT 3.5 Turbo), GPT 4, Claude, and Bard, to generate functional phishing attacks using a series of malicious prompts. We discover that these LLMs can generate both phishing websites and emails that can convincingly imitate well-known brands and also deploy a range of evasive tactics that are used to elude detection mechanisms employed by anti-phishing systems. These attacks can be generated using unmodified or "vanilla" versions of these LLMs without requiring any prior adversarial exploits such as jailbreaking. We evaluate the performance of the LLMs towards generating these attacks and find that they can also be utilized to create malicious prompts that, in turn, can be fed back to the model to generate phishing scams - thus massively reducing the prompt-engineering effort required by attackers to scale these threats. As a countermeasure, we build a BERT-based automated detection tool that can be used for the early detection of malicious prompts to prevent LLMs from generating phishing content. Our model is transferable across all four commercial LLMs, attaining an average accuracy of 96% for phishing website prompts and 94% for phishing email prompts. We also disclose the vulnerabilities to the concerned LLMs, with Google acknowledging it as a severe issue. Our detection model is available for use at Hugging Face, as well as a ChatGPT Actions plugin.},
+  keywords={Training;Technological innovation;Phishing;Large language models;Machine learning;Chatbots;Electronic mail;Phishing;Large Language Models;Prompt Engineering;ChatGPT;vulnerabilities;Detection tool},
+  doi={10.1109/SP54263.2024.00182},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  2  of  261
+
+
+START...DOI Index:  3  of  261
+https://doi.org/10.1109/SP54263.2024.00159
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646666,
+  author={Frank, Joel and Herbert, Franziska and Ricker, Jonas and Schönherr, Lea and Eisenhofer, Thorsten and Fischer, Asja and Dürmuth, Markus and Holz, Thorsten},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={A Representative Study on Human Detection of Artificially Generated Media Across Countries}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={55-73},
+  abstract={AI-generated media has become a threat to our digital society as we know it. Forgeries can be created automatically and on a large scale based on publicly available technologies. Recognizing this challenge, academics and practitioners have proposed a multitude of automatic detection strategies to detect such artificial media. However, in contrast to these technological advances, the human perception of generated media has not been thoroughly studied yet.In this paper, we aim to close this research gap. We conduct the first comprehensive survey on people’s ability to detect generated media, spanning three countries (USA, Germany, and China), with 3,002 participants covering audio, image, and text media. Our results indicate that state-of-the-art forgeries are almost indistinguishable from "real" media, with the majority of participants simply guessing when asked to rate them as human- or machine-generated. In addition, AI-generated media is rated as more likely to be human-generated across all media types and all countries. To further understand which factors influence people’s ability to detect AI-generated media, we include personal variables, chosen based on a literature review in the domains of deepfake and fake news research. In a regression analysis, we found that generalized trust, cognitive reflection, and self-reported familiarity with deepfakes significantly influence participants’ decisions across all media categories.},
+  keywords={Surveys;Deepfakes;Generative AI;Social networking (online);Reviews;Media;Reflection},
+  doi={10.1109/SP54263.2024.00159},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  3  of  261
+
+
+START...DOI Index:  4  of  261
+https://doi.org/10.1109/SP54263.2024.00155
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646754,
+  author={Meng, Xiangtao and Wang, Li and Guo, Shanqing and Ju, Lei and Zhao, Qingchuan},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={AVA: Inconspicuous Attribute Variation-based Adversarial Attack bypassing DeepFake Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={74-90},
+  abstract={While DeepFake applications are becoming popular in recent years, their abuses pose a serious privacy threat. Unfortunately, most related detection algorithms to mitigate the abuse issues are inherently vulnerable to adversarial attacks because they are built atop DNN-based classification models, and the literature has demonstrated that they could be bypassed by introducing pixel-level perturbations. Though corresponding mitigation has been proposed, we have identified a new attribute-variation-based adversarial attack (AVA) that perturbs the latent space via a combination of Gaussian prior and semantic discriminator to bypass such mitigation. It perturbs the semantics in the attribute space of DeepFake images, which are inconspicuous to human beings (e.g., mouth open) but can result in substantial differences in DeepFake detection. We evaluate our proposed AVA attack on nine state-of-the-art DeepFake detection algorithms and applications. The empirical results demonstrate that AVA attack defeats the state-of-the-art black box attacks against DeepFake detectors and achieves more than a 95% success rate on two commercial DeepFake detectors. Moreover, our human study indicates that AVA-generated DeepFake images are often imperceptible to humans, which presents huge security and privacy concerns.},
+  keywords={Training;Deepfakes;Privacy;Prevention and mitigation;Perturbation methods;Semantics;Mouth;DeepFake detection;adversarial attack},
+  doi={10.1109/SP54263.2024.00155},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  4  of  261
+
+
+START...DOI Index:  5  of  261
+https://doi.org/10.1109/SP54263.2024.00194
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646853,
+  author={Abdullah, Sifat Muhammad and Cheruvu, Aravind and Kanchi, Shravya and Chung, Taejoong and Gao, Peng and Jadliwala, Murtuza and Viswanath, Bimal},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={An Analysis of Recent Advances in Deepfake Image Detection in an Evolving Threat Landscape}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={91-109},
+  abstract={Deepfake or synthetic images produced using deep generative models pose serious risks to online platforms. This has triggered several research efforts to accurately detect deepfake images, achieving excellent performance on publicly available deepfake datasets. In this work, we study 8 state-of-the-art detectors and argue that they are far from being ready for deployment due to two recent developments. First, the emergence of lightweight methods to customize large generative models, can enable an attacker to create many customized generators (to create deepfakes), thereby substantially increasing the threat surface. We show that existing defenses fail to generalize well to such user-customized generative models that are publicly available today. We discuss new machine learning approaches based on content-agnostic features, and ensemble modeling to improve generalization performance against user-customized models. Second, the emergence of vision foundation models—machine learning models trained on broad data that can be easily adapted to several downstream tasks—can be misused by attackers to craft adversarial deepfakes that can evade existing defenses. We propose a simple adversarial attack that leverages existing foundation models to craft adversarial samples without adding any adversarial noise, through careful semantic manipulation of the image content. We highlight the vulnerabilities of several defenses against our attack, and explore directions leveraging advanced foundation models and adversarial training to defend against this new threat.},
+  keywords={Training;Deepfakes;Adaptation models;Privacy;Noise;Semantics;Generators;deepfake image;foundation models;generative models;deepfake detection},
+  doi={10.1109/SP54263.2024.00194},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  5  of  261
+
+
+START...DOI Index:  6  of  261
+https://doi.org/10.1109/SP54263.2024.00195
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646691,
+  author={Kong, William and Medina, Andrés Muñoz and Ribero, Mónica and Syed, Umar},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={DP-Auditorium: A Large-Scale Library for Auditing Differential Privacy}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={110-126},
+  abstract={New regulations and increased awareness of data privacy have led to the deployment of new and more efficient differentially private mechanisms across both public institutions and industries. With the growing adoption of differential privacy, there is also a risk of introducing bugs into both the derivation of new mechanisms and their implementation. Ensuring these mechanisms is therefore crucial to ensure proper protection of data. However since differential privacy is not a property of a single output of a mechanism but a property of the mechanism itself, testing whether a mechanism is differentially private is not a trivial task. While ad hoc testing techniques exist under specific assumptions, no concerted effort has been made by the research community to develop a flexible and extendable tool for testing differentially private mechanisms. This paper introduces DP-Auditorium as a step advancing research in this direction. The main idea behind DP-Auditorium is to abstract the problem of testing differential privacy into two steps: (1) measuring the distance between distributions, and (2) finding neighboring datasets where a mechanism generates output distributions maximizing such distance. From a technical point of view, we propose three new algorithms for evaluating the distance between distributions. While these algorithms are well-known in the statistics community, we provide new estimation guarantees by leveraging the fact that we are only interested in verifying whether a mechanism is differentially private, and not on obtaining an exact estimate of the distance between two distributions. DP-Auditorium is easily extensible, as demonstrated in this paper by implementing a well-known approximate differential privacy testing algorithm to our library. Finally, we provide an extensive comparison to date of multiple testers across varying sample sizes and differential privacy parameters, demonstrating that there is no single tester that dominates all others, and that in order to ensure proper testing of mechanisms, one requires a combination of different techniques.},
+  keywords={Differential privacy;Privacy;Computer bugs;Estimation;Libraries;Software;Security},
+  doi={10.1109/SP54263.2024.00195},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  6  of  261
+
+
+START...DOI Index:  7  of  261
+https://doi.org/10.1109/SP54263.2024.00196
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646676,
+  author={Jain, Palak and Smith, Adam and Wagaman, Connor},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Time-Aware Projections: Truly Node-Private Graph Statistics under Continual Observation*}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={127-145},
+  abstract={Releasing differentially private statistics about social network data is challenging: one individual’s data consists of a node and all of its connections, and typical analyses are sensitive to the insertion of a single unusual node in the network. This challenge is further complicated in the continual release setting, where the network varies over time and one wants to release information at many time points as the network grows. Previous work addresses node-private continual release by assuming an unenforced promise on the maximum degree in a graph; indeed, the algorithms from these works exhibit blatant privacy violations when the degree bound is not met.In this work, we describe the first algorithms that satisfy the standard notion of node-differential privacy in the continual release setting (i.e., without an assumed promise on the input streams). These algorithms are accurate on sparse graphs, for several fundamental graph problems: counting edges, triangles, other subgraphs, and connected components; and releasing degree histograms. Our unconditionally private algorithms generally have optimal error, up to polylogarithmic factors and lower-order terms.We provide general transformations that take a base algorithm for the continual release setting, which need only be private for streams satisfying a promised degree bound, and produce an algorithm that is unconditionally private yet mimics the base algorithm when the stream meets the degree bound (and adds only linear overhead to the time and space complexity of the base algorithm). To do so, we design new projection algorithms for graph streams, based on the batch-model techniques of [BBDS13; DLL16], which modify the stream to limit its degree. Our main technical innovation is to show that the projections are stable—meaning that similar input graphs have similar projections—when the input stream satisfies a privately testable safety condition. Our transformation then follows a novel online variant of the Propose-Test-Release framework [DL09], privately testing the safety condition before releasing output at each step.},
+  keywords={Privacy;Technological innovation;Social networking (online);MIMICs;Safety;Security;Projection algorithms;differential privacy;graphs;node privacy;continual observation;continual release},
+  doi={10.1109/SP54263.2024.00196},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  7  of  261
+
+
+START...DOI Index:  8  of  261
+https://doi.org/10.1109/SP54263.2024.00085
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646768,
+  author={Espiritu, Zachary and George, Marilyn and Kamara, Seny and Qin, Lucy},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Synq: Public Policy Analytics Over Encrypted Data}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={146-165},
+  abstract={Data analytics is a core part of modern decision making, especially in public policy. However, there exists a tension between data privacy and otherwise socially beneficial analytics when data sources contain personal information. We design Synq, a system that supports analytics over encrypted data while accounting for the usability considerations institutions may have when conducting studies that affect public policy. We specifically use an application-centric approach and model Synq’s design requirements from a large-scale series of studies conducted on the opioid epidemic in Massachusetts. We systematize the design considerations of the public policy context and demonstrate how the combination of design considerations that Synq addresses is novel through a survey of the literature. We then present our protocol which combines structured encryption, somewhat homomorphic encryption, and oblivious pseudorandom functions to support a complex query language that includes filtering (retrieving rows by attribute/value pairs), linking (merging rows from different tables that represent the same individual) and aggregate functions (sum, count, average, variance, regression). We formally express the security of our protocol and show that Synq is efficient in practice while satisfying usability considerations that are critical to deployment in the setting of public policy studies.},
+  keywords={Surveys;Data privacy;Protocols;Filtering;Soft sensors;Merging;Opioids},
+  doi={10.1109/SP54263.2024.00085},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  8  of  261
+
+
+START...DOI Index:  9  of  261
+https://doi.org/10.1109/SP54263.2024.00098
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646795,
+  author={Khodayari, Soheil and Barber, Thomas and Pellegrino, Giancarlo},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={The Great Request Robbery: An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={166-184},
+  abstract={Request forgery attacks are among the oldest threats to Web applications, traditionally caused by server-side confused deputy vulnerabilities. However, recent advancements in client-side technologies have introduced more subtle variants of request forgery, where attackers exploit input validation flaws in client-side programs to hijack outgoing requests. We have little-to-no information about these client-side variants, their prevalence, impact, and countermeasures, and in this paper we undertake one of the first evaluations of the state of client-side request hijacking on the Web platform.Starting with a comprehensive review of browser API capabilities and Web specifications, we systematize request hijacking vulnerabilities and the resulting attacks, identifying 10 distinct vulnerability variants, including seven new ones. Then, we use our systematization to design and implement Sheriff, a static-dynamic tool that detects vulnerable data flows from attacker-controllable inputs to request-sending instructions. We instantiate Sheriff on the top of the Tranco top 10K sites, performing, to our knowledge, the first investigation into the prevalence of request hijacking flaws in the wild. Our study uncovers that request hijacking vulnerabilities are ubiquitous, affecting 9.6% of the top 10K sites. We demonstrate the impact of these vulnerabilities by constructing 67 proof-of-concept exploits across 49 sites, making it possible to mount arbitrary code execution, information leakage, open redirections and CSRF also against popular websites like Microsoft Azure, Starz, Reddit, and Indeed. Finally, we review and evaluate the adoption and efficacy of existing countermeasures against client-side request hijacking attacks, including browser-based solutions like CSP, COOP and COEP, and input validation.},
+  keywords={Privacy;Codes;Reviews;Social networking (online);Information leakage;Forgery;Browsers;CSRF;Request Hijacking;Prevalence;Defenses},
+  doi={10.1109/SP54263.2024.00098},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  9  of  261
+
+
+START...DOI Index:  10  of  261
+https://doi.org/10.1109/SP54263.2024.00129
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646798,
+  author={Wang, Qi and Chen, Jianjun and Jiang, Zheyu and Guo, Run and Liu, Ximeng and Zhang, Chao and Duan, Haixin},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Break the Wall from Bottom: Automated Discovery of Protocol-Level Evasion Vulnerabilities in Web Application Firewalls}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={185-202},
+  abstract={Web Application Firewalls (WAFs) are a crucial line of defense against web-based attacks. However, an emerging threat comes from protocol-level evasion vulnerabilities, in which adversaries exploit parsing discrepancies between the WAF HTTP parser and those of web applications to circumvent WAFs. Currently, uncovering these vulnerabilities still depends on manual, ad hoc methods. In this paper, we propose WAF Manis, a novel testing methodology to automatically discover protocol-level evasion vulnerabilities in WAFs. We evaluated WAF Manis against 14 popular WAFs including Cloudflare and ModSecurity and 20 popular web frameworks including Laravel and Spring. In total, we discovered 311 protocol-level evasion cases affecting all tested WAFs and applications. Due to the generic nature of protocol-level evasions, these evasion vulnerabilities do not hinge on specific payload patterns and can transmit any malicious payloads - for instance, SQL injection, XSS, or Log4jShell - to the target websites. We further analyzed these vulnerabilities and identified three primary reasons contributing to WAF evasions. We have reported those identified vulnerabilities to the affected providers and received acknowledgments and bug bounty rewards from Cloudflare WAF, Fortinet WAF, Alibaba Cloud WAF, Huawei Cloud WAF, ModSecurity, Go security Team, and the PHP security team.},
+  keywords={Privacy;Firewalls (computing);Computer bugs;Semantics;Manuals;SQL injection;Security;WAF;Fuzz;Protocol-level WAF evasion;Security},
+  doi={10.1109/SP54263.2024.00129},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  10  of  261
+
+
+START...DOI Index:  11  of  261
+https://doi.org/10.1109/SP54263.2024.00177
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646837,
+  author={Klein, David and Johns, Martin},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Parse Me, Baby, One More Time: Bypassing HTML Sanitizer via Parsing Differentials}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={203-221},
+  abstract={Websites rely on server-side HTML sanitization to defend against the ever-present threat of cross-site scripting attacks. Parsing arbitrary pieces of markup to assess whether they contain an exploit payload is far from trivial. This complexity leads to divergences between the parsing results of the sanitizer and the user’s browser. These so-called parsing differentials open the door for the unexplored category of mutation-based attacks. Here, an attacker abuses the sanitizer’s incorrect HTML parser to either directly bypass it or coerce it to transform benign markup into a dangerous exploit payload.In this work, we study the prevalence of such parsing differentials and their security impact. To this end, we built a generator for HTML fragments that are difficult to parse and evaluated how 11 sanitizers across five programming languages deal with such inputs. We found that parsing differentials are commonplace, as each assessed sanitizer has at least several functional deficiencies leading to overzealous removal of benign input. Even worse, we were able to automatically bypass all but two of the 11 sanitizers, painting a dire picture of the state of server-side HTML sanitization.},
+  keywords={Computer languages;Privacy;Pediatrics;Transforms;HTML;Generators;Browsers;Web Security;XSS;mXSS;Parsing Differential;HTML Sanitization},
+  doi={10.1109/SP54263.2024.00177},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  11  of  261
+
+
+START...DOI Index:  12  of  261
+https://doi.org/10.1109/SP54263.2024.00197
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646634,
+  author={Li, Penghui and Meng, Wei and Zhang, Mingxue and Wang, Chenlin and Luo, Changhua},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Holistic Concolic Execution for Dynamic Web Applications via Symbolic Interpreter Analysis}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={222-238},
+  abstract={Symbolic execution for dynamic web applications is challenging due to their multilingual nature. Prior solutions often fall short in limited syntax support and excessive engineering costs. We propose a novel approach called symbolic interpreter analysis (SIA) for web applications written in interpreted languages. SIA tackles the limitations by leveraging the comprehensive syntax support of language interpreters and incorporating established engineering from existing symbolic execution engines. Since web application logic is handled by the interpreter, SIA leverages an off-the-shelf symbolic execution engine to analyze the corresponding interpreter code to symbolically comprehend the behavior of the web application. Indeed, SIA entails solving several technical challenges in web application symbolic execution such as web application exploration, database interactions, etc.We have implemented our approach in SymPHP, a concolic execution engine for PHP-based web applications. Our extensive evaluation shows that SymPHP could effectively explore web application code with comprehensive PHP syntax support and high code coverage. It achieved high code coverage and successfully identified 77.23% of known vulnerabilities in our dataset, significantly outperforming prior approaches. The hybrid fuzzing framework built atop SymPHP significantly boosted fuzzing and detected ten new vulnerabilities.},
+  keywords={Privacy;Codes;Costs;Databases;Prototypes;Syntactics;Fuzzing},
+  doi={10.1109/SP54263.2024.00197},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  12  of  261
+
+
+START...DOI Index:  13  of  261
+https://doi.org/10.1109/SP54263.2024.00198
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646755,
+  author={Wang, Enze and Chen, Jianjun and Xie, Wei and Wang, Chuhan and Gao, Yifei and Wang, Zhenhua and Duan, Haixin and Liu, Yang and Wang, Baosheng},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Where URLs Become Weapons: Automated Discovery of SSRF Vulnerabilities in Web Applications}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={239-257},
+  abstract={Server-Side Request Forgery (SSRF) vulnerability poses significant security risks to web applications, enabling adversaries to exploit web applications as stepping stones for unauthorized access of internal-only services or even performing arbitrary commands. Despite its recent emergence as a distinct category in the 2021 OWASP Top 10 web security risks and its increasing prevalence in modern web applications, there remains a lack of effective approaches to detect SSRF vulnerabilities systematically.We present a novel methodology, SSRFuzz, to effectively identify SSRF vulnerability in PHP web applications. Our methodology consists of three phases. In the initial phase, we designed an SSRF oracle to examine functions in PHP manuals and identify sinks that provide server-side request capabilities. This process yielded a total of 86 sensitive PHP sinks out of 2101 PHP functions. The second stage involves dynamic taint inference and the utilization of the identified sinks to examine the source code of target web applications, pinpointing all feasible input points that could trigger these sinks. The final phase employs fuzzing techniques. We generate testing HTTP requests with SSRF payloads, send them to the previously identified input points within the target web applications, and detect if an SSRF vulnerability is triggered. We implemented a prototype of SSRFuzz and evaluated it on 27 real-world applications, including Joomla and WordPress. In total, we discovered 28 SSRF vulnerabilities, 25 of which were previously unreported. We reported all the vulnerabilities to the affected vendors, and 16 new CVE IDs were assigned.},
+  keywords={Privacy;Systematics;Weapons;Source coding;Prototypes;Manuals;HTTP;Server-Side Request Forgery;SSRF Sinks;dynamic taint inference;fuzzing},
+  doi={10.1109/SP54263.2024.00198},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  13  of  261
+
+
+START...DOI Index:  14  of  261
+https://doi.org/10.1109/SP54263.2024.00199
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646760,
+  author={Hajj Chehade, Saiid El and Siby, Sandra and Troncoso, Carmela},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={SINBAD: Saliency-informed detection of breakage caused by ad blocking}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={258-276},
+  abstract={Privacy-enhancing blocking tools based on filter-list rules tend to break legitimate functionality. Filter-list maintainers could benefit from automated breakage detection tools that allow them to proactively fix problematic rules before deploying them to millions of users. We introduce SINBAD, an automated breakage detector that improves the accuracy over the state of the art by 20%, and is the first to detect dynamic breakage and breakage caused by style-oriented filter rules. The success of SINBAD is rooted in three innovations: (1) the use of user-reported breakage issues in forums that enable the creation of a high-quality dataset for training in which only breakage that users perceive as an issue is included; (2) the use of ‘web saliency’ to automatically identify user-relevant regions of a website on which to prioritize automated interactions aimed at triggering breakage; and (3) the analysis of webpages via subtrees which enables fine-grained identification of problematic filter rules.},
+  keywords={Training;Technological innovation;Privacy;Accuracy;Detectors;Information filters;Security;privacy;web;ad blocking;web breakage;machine learning},
+  doi={10.1109/SP54263.2024.00199},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  14  of  261
+
+
+START...DOI Index:  15  of  261
+https://doi.org/10.1109/SP54263.2024.00200
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646606,
+  author={Nguyen, Hoang Dai and Subramani, Karthika and Acharya, Bhupendra and Perdisci, Roberto and Vadrevu, Phani},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={C-Frame: Characterizing and measuring in-the-wild CAPTCHA attacks}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={277-295},
+  abstract={In this paper, we design and implement C-Frame, the first measurement system to collect real-time, in-the-wild data on modern CAPTCHA attacks. For this, we study the recent evolution in the protocols of CAPTCHAs as well as human-driven farms that facilitate attacks against CAPTCHAs. This study leads us directly to the discovery of a unique vantage point to conduct a global-scale CAPTCHA attack measurement study. Harnessing this, we design and build C-Frame to be CAPTCHA-agnostic and ethically considerate. We then deploy our system for a 92-day period resulting in capturing of 425,257 CAPTCHA attacks on 1417 sites.In order to characterize these attacks, we leverage a carefully designed qualitative analysis approach using 3 analysts. Our study results in delineation of 34 different CAPTCHA-attack categories with several interesting real world attack examples. Twitter received the largest number of CAPTCHA attacks overall (about 255,480 attack requests) most of which attempt to create bot accounts. We also categorized and captured attacks such as ticket scalping attempts (e.g. a Taylor Swift concert event in Brazil), fraudulent lawsuit claims, and abusive appointment booking attempts (e.g. a Spain visa site in China). We also found CAPTCHA-assisted attempts to download data from government website (e.g. websites of 20 US states). We ascribe our attacks to 58 different countries across 5 continents. We present a detailed measurement analysis to give insights on this attack data and also suggest some future potential remediation measures that can be inspired by our system.},
+  keywords={Ethics;Protocols;Social networking (online);Blogs;Government;Chatbots;Real-time systems},
+  doi={10.1109/SP54263.2024.00200},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  15  of  261
+
+
+START...DOI Index:  16  of  261
+https://doi.org/10.1109/SP54263.2024.00183
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646682,
+  author={Xiao, Feng and Su, Zhongfu and Yang, Guangliang and Lee, Wenke},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Jasmine: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={296-311},
+  abstract={Static data flow analysis techniques have been broadly applied in analyzing and detecting security threats in web applications. However, without actual code execution, they often suffer serious precision issues and may even miss serious vulnerabilities, especially when facing modern JavaScript applications characterized by complex operations and semantics. To combat these complex semantics, we propose a novel semantic understanding approach, namely computation-based semantic explanation (CSE). CSE can effectively identify and resolve common failures arising from complex semantics in static data flow analysis, ultimately improving the detection of potential vulnerabilities.We implement a prototype tool of CSE, called Jasmine. By applying Jasmine to more than 10K real-world JavaScript programs, we find complex operations and semantics are prevalent in practice and heavily impede the state-of-art static techniques (e.g., Github’s CodeQL and IBM’s WALA) from regular security validations. Our experiments show Jasmine can effectively resolve complex semantics and lead to the discovery of 22 hidden vulnerabilities, which are not detectable by existing tools. Among these vulnerabilities, 13 ones are previously unknown, i.e., zero-day vulnerabilities. Up to now, nine CVEs have been issued, and five of them have been rated as ‘critical’ with a 9.8 severity score.},
+  keywords={Privacy;Codes;Semantics;Prototypes;Security;Task analysis},
+  doi={10.1109/SP54263.2024.00183},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  16  of  261
+
+
+START...DOI Index:  17  of  261
+https://doi.org/10.1109/SP54263.2024.00162
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646775,
+  author={Salazar, Luis and Castro, Sebastián R. and Lozano, Juan and Koneru, Keerthi and Zambon, Emmanuele and Huang, Bing and Baldick, Ross and Krotofil, Marina and Rojas, Alonso and Cardenas, Alvaro A.},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={A Tale of Two Industroyers: It was the Season of Darkness}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={312-330},
+  abstract={In this paper, we study two pieces of malware that attempted to create blackouts in Ukraine. In particular, we design and develop a new sandbox that emulates different networks, devices, and other characteristics so that we can execute malware targeting substation equipment and understand in detail the specific sequence of actions the attackers could perform on substation equipment. We also study the effects that future similar malware can have. Our findings include new malware behavior not previously documented (such as the detailed algorithm for the MMS protocol payload) and an illustration of how attacking different targets will produce different effects.},
+  keywords={Substations;Protocols;Circuit breakers;Static analysis;Reconnaissance;Malware;Vectors},
+  doi={10.1109/SP54263.2024.00162},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  17  of  261
+
+
+START...DOI Index:  18  of  261
+https://doi.org/10.1109/SP54263.2024.00201
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646672,
+  author={Sheldon, Jennifer and Zhu, Weidong and Abdullah, Adnan and Bhupathiraju, Sri Hrushikesh Varma and Sugawara, Takeshi and Butler, Kevin R. B. and Islam, Md Jahidul and Rampazzi, Sara},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={AquaSonic: Acoustic Manipulation of Underwater Data Center Operations and Resource Management}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={331-349},
+  abstract={Underwater data centers (UDCs) hold promise as next-generation data storage due to their energy efficiency and environmental sustainability benefits. While the natural cooling properties of water save power, the isolated aquatic environment and long-range sound propagation characteristics in water create unique vulnerabilities which differ from those of on-land data centers. Our research discovers the unique vulnerabilities of fault-tolerant storage devices, resource allocation software, and distributed file systems to acoustic injection attacks in UDCs. With a realistic testbed approximating UDC server operations, we empirically characterize the capabilities of acoustic injection underwater and find that an attacker can reduce fault-tolerant RAID 5 storage system throughput by 17% up to 100%. Our closed-water analyses reveal that an attacker can (i) cause unresponsiveness and automatic node removal in a distributed filesystem with only 2.4 minutes of sustained acoustic injection, (ii) induce a distributed database’s latency to increase by up to 92.7% to reduce system reliability, and (iii) induce load-balance managers to redirect up to 74% of resources to a target server to cause overload or force resource colocation. Furthermore, we perform open-water experiments in a lake and find that an attacker can cause controlled throughput degradation at the maximum allowable distance of 6.35 m using a commercial speaker. We also investigate and discuss the effectiveness of standard defenses against acoustic injection attacks. Finally, we formulate a novel machine learning-based detection system that reaches 0% False Positive Rate and 98.2% True Positive Rate trained on our dataset of profiled hard disk drives under 30-second FIO benchmark execution. With this work, we aim to help manufacturers proactively protect UDCs against acoustic injection attacks and ensure the security of subsea computing infrastructures.},
+  keywords={Water;Data centers;Fault tolerance;Fault tolerant systems;Throughput;Acoustics;Security;Cyber Physical System Security;Acoustic;Storage System;Data Centers;Physical Side Channel},
+  doi={10.1109/SP54263.2024.00201},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  18  of  261
+
+
+START...DOI Index:  19  of  261
+https://doi.org/10.1109/SP54263.2024.00202
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646873,
+  author={Ford, Irina and Soneji, Ananta and Kokulu, Faris Bugra and Vadayath, Jayakrishna and Basque, Zion Leonahenahe and Vipat, Gaurav and Doupé, Adam and Wang, Ruoyu and Ahn, Gail-Joon and Bao, Tiffany and Shoshitaishvili, Yan},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={“Watching over the shoulder of a professional”: Why Hackers Make Mistakes and How They Fix Them}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={350-368},
+  abstract={The complex and diverse nature of software systems necessitates a careful manual approach to unveil vulnerabilities, involving deep analysis, creative problem-solving, and specialized expertise. Like all complex tasks, it’s susceptible to mistakes stemming from cognitive limitations and behavioral factors that hinder optimal performance. Although there are significant research efforts focused on vulnerability discovery, little attention has been given to comprehending mistakes within the process. Understanding these mistakes could pave the way for better-designed education programs and automated tools, aiming to mitigate and prevent potential mistakes and enhance the efficiency of vulnerability research.In this paper, we leverage social media, specifically YouTube, to examine mistakes made by security content creators exploiting vulnerabilities in CTF-style challenges. Analyzing 30 screencasts from 11 hackers, we identified 124 distinct issues and investigated their types, underlying causes, and time investments. Additionally, we delved into the cognitive and behavioral aspects associated with these issues.},
+  keywords={Privacy;Video on demand;Computer hacking;Social networking (online);Refining;Software systems;Web sites},
+  doi={10.1109/SP54263.2024.00202},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  19  of  261
+
+
+START...DOI Index:  20  of  261
+https://doi.org/10.1109/SP54263.2024.00203
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646743,
+  author={West, Jack and Thiemt, Lea and Ahmed, Shimaa and Bartig, Maggie and Fawaz, Kassem and Banerjee, Suman},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={A Picture is Worth 500 Labels: A Case Study of Demographic Disparities in Local Machine Learning Models for Instagram and TikTok}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={369-387},
+  abstract={Mobile apps have embraced user privacy by moving their data processing to the user’s smartphone. Advanced machine learning (ML) models, such as vision models, can now locally analyze user images to extract insights that drive several functionalities. Capitalizing on this new processing model of locally analyzing user images, we analyze two popular social media apps, TikTok and Instagram, to reveal (1) what insights vision models in both apps infer about users from their image and video data and (2) whether these models exhibit performance disparities with respect to demographics. As vision models provide signals for sensitive technologies like age verification and facial recognition, understanding potential biases in these models is crucial for ensuring that users receive equitable and accurate services.We develop a novel method for capturing and evaluating ML tasks in mobile apps, overcoming challenges like code obfuscation, native code execution, and scalability. Our method comprises ML task detection, ML pipeline reconstruction, and ML performance assessment, specifically focusing on demographic disparities. We apply our methodology to TikTok and Instagram, revealing significant insights. For TikTok, we find issues in age and gender prediction accuracy, particularly for minors and Black individuals. In Instagram, our analysis uncovers demographic disparities in extracting over 500 visual concepts from images, with evidence of spurious correlations between demographic features and certain concepts.},
+  keywords={Analytical models;Video on demand;Pipelines;Machine learning;Data models;Mobile applications;Web sites},
+  doi={10.1109/SP54263.2024.00203},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  20  of  261
+
+
+START...DOI Index:  21  of  261
+https://doi.org/10.1109/SP54263.2024.00049
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646819,
+  author={Lin, Zilong and Li, Zhengyi and Liao, Xiaojing and Wang, XiaoFeng and Liu, Xiaozhong},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={MAWSEO: Adversarial Wiki Search Poisoning for Illicit Online Promotion}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={388-406},
+  abstract={As a prominent instance of vandalism edits, Wiki search poisoning for illicit promotion is a cybercrime in which the adversary aims at editing Wiki articles to promote illicit businesses through Wiki search results of relevant queries. In this paper, we report a study that, for the first time, shows that such stealthy blackhat SEO on Wiki can be automated. Our technique, called MAWSEO, employs adversarial revisions to achieve real-world cybercriminal objectives, including rank boosting, vandalism detection evasion, topic relevancy, semantic consistency, user awareness (but not alarming) of promotional content, etc. Our evaluation and user study demonstrate that MAWSEO is capable of effectively and efficiently generating adversarial vandalism edits, which can bypass state-of-the-art built-in Wiki vandalism detectors, and also get promotional content through to Wiki users without triggering their alarms. In addition, we investigated potential defense, including coherence based detection and adversarial training of vandalism detection, against our attack in the Wiki ecosystem.},
+  keywords={Training;Electronic publishing;Semantics;Information services;Detectors;Coherence;Search engines},
+  doi={10.1109/SP54263.2024.00049},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  21  of  261
+
+
+START...DOI Index:  22  of  261
+https://doi.org/10.1109/SP54263.2024.00179
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646610,
+  author={Carlini, Nicholas and Jagielski, Matthew and Choquette-Choo, Christopher A. and Paleka, Daniel and Pearce, Will and Anderson, Hyrum and Terzis, Andreas and Thomas, Kurt and Tramèr, Florian},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Poisoning Web-Scale Training Datasets is Practical}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={407-425},
+  abstract={Deep learning models are often trained on distributed, web-scale datasets crawled from the internet. In this paper, we introduce two new dataset poisoning attacks that intentionally introduce malicious examples to a model’s performance. Our attacks are immediately practical and could, today, poison 10 popular datasets. Our first attack, split-view poisoning, exploits the mutable nature of internet content to ensure a dataset annotator’s initial view of the dataset differs from the view downloaded by subsequent clients. By exploiting specific invalid trust assumptions, we show how we could have poisoned 0.01% of the LAION-400M or COYO-700M datasets for just $60 USD. Our second attack, frontrunning poisoning, targets web-scale datasets that periodically snapshot crowd-sourced content—such as Wikipedia—where an attacker only needs a time-limited window to inject malicious examples. In light of both attacks, we notify the maintainers of each affected dataset and recommended several low-overhead defenses.},
+  keywords={Training;Threat modeling;Privacy;Electronic publishing;Toxicology;Encyclopedias;Information filters},
+  doi={10.1109/SP54263.2024.00179},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  22  of  261
+
+
+START...DOI Index:  23  of  261
+https://doi.org/10.1109/SP54263.2024.00066
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646696,
+  author={Koisser, David and Mitev, Richard and Chilese, Marco and Sadeghi, Ahmad-Reza},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Don’t Shoot the Messenger: Localization Prevention of Satellite Internet Users}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={426-444},
+  abstract={Satellite Internet plays an increasingly important role in geopolitical conflicts. This notion was affirmed in the Ukrainian conflict escalating at the beginning of 2022, with the large-scale deployment of the Starlink satellite Internet service which consequently demonstrated the strategic importance of a free flow of information. Aside from military use, many citizens publish sensitive information on social media platforms to influence the public narrative. However, the use of satellite communication has proven to be dangerous, as the signals can be monitored by other satellites and used to triangulate the source on the ground. Unfortunately, the targeted killings of journalists have shown this threat to be effective. While the increasing deployment of satellite Internet systems gives citizens an unprecedented mouthpiece in conflicts, protecting them against localization is an unaddressed problem.To address this threat, we present AnonSat, a novel scheme to protect satellite Internet users from triangulation. AnonSat works with cheap off-the-shelf devices, leveraging long-range wireless communication to span a local network among satellite base stations. This allows rerouting users’ communication to other satellite base stations, some distance away from each user, thus, preventing their localization. AnonSat is designed for easy deployment and usability, which we demonstrate with a prototype implementation. Our large-scale network simulations using real-world data sets show the effectiveness of AnonSat in various practical settings.},
+  keywords={Location awareness;Wireless communication;Base stations;Satellites;Web and internet services;Prototypes;Logic gates},
+  doi={10.1109/SP54263.2024.00066},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  23  of  261
+
+
+START...DOI Index:  24  of  261
+https://doi.org/10.1109/SP54263.2024.00149
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646850,
+  author={Liu, Wei and Li, Yuanjie and Li, Hewu and Chen, Yimei and Wang, Yufeng and Lan, Jingyi and Wu, Jianping and Wu, Qian and Liu, Jun and Lai, Zeqi},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={The Dark Side of Scale: Insecurity of Direct-to-Cell Satellite Mega-Constellations}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={445-464},
+  abstract={The emergent direct-to-cell Low-Earth Orbit (LEO) satellite mega-constellations promise ubiquitous LTE/5G access for our commodity phones and IoTs without terrestrial base stations. While their extreme scale and mobility help tolerate diverse attacks, we show that both new features are exploitable to amplify signaling protocol vulnerabilities inherited from LTE/5G and obfuscate attacks to threaten satellite services. We showcase this with SatOver, a control-plane cross-layer attack that lets a greedy terrestrial operator or a man-in-the-middle attacker block all direct-to-cell satellites in urban areas. SatOver can reuse terrestrial LTE/5G base stations or deploy commodity software-defined radios as false satellites, stealthily hijack victim devices, delay their satellite access, stop them from probing other satellites, and block the entire mega-constellation. Our real-world satellite tests, lab tests with commodity 3GPP NR/IoT-NTN stacks, and operational trace-driven emulation validate SatOver’s viability for attacking COTS and upcoming NTN phones/IoTs. We discuss potential defenses against SatOver’s attack amplification/obfuscation.},
+  keywords={Base stations;Privacy;Protocols;Satellite broadcasting;Urban areas;Emulation;Low earth orbit satellites;Direct-to-cell satellites;Non-terrestrial network (NTN;LTE/5G;Network security},
+  doi={10.1109/SP54263.2024.00149},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  24  of  261
+
+
+START...DOI Index:  25  of  261
+https://doi.org/10.1109/SP54263.2024.00079
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646669,
+  author={Vos, Jelle and Conti, Mauro and Erkin, Zekeriya},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={SoK: Collusion-resistant Multi-party Private Set Intersections in the Semi-honest Model}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={465-483},
+  abstract={Private set intersection protocols allow two parties with private sets of data to compute the intersection between them without leaking other information about their sets. These protocols have been studied for almost 20 years, and have been significantly improved over time, reducing both their computation and communication costs. However, when more than two parties want to compute a private set intersection, these protocols are no longer applicable. While extensions exist to the multi-party case, these protocols are significantly less efficient than the two-party case. It remains an open question to design collusion-resistant multi-party private set intersection (MPSI) protocols that come close to the efficiency of two-party protocols. This work is made more difficult by the immense variety in the proposed schemes and the lack of systematization. Moreover, each new work only considers a small subset of previously proposed protocols, leaving out important developments from older works. Finally, MPSI protocols rely on many possible constructions and building blocks that have not been summarized. This work aims to point protocol designers to gaps in research and promising directions, pointing out common security flaws and sketching a frame of reference. To this end, we focus on the semi-honest model. We conclude that current MPSI protocols are not a one-size-fits-all solution, and instead there exist many protocols that each prevail in their own application setting.},
+  keywords={Privacy;Protocols;Costs;Computational modeling;Focusing;Computational efficiency;Security;Private Set Intersections;Systematization of Knowledge;Privacy-Enhancing Technologies},
+  doi={10.1109/SP54263.2024.00079},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  25  of  261
+
+
+START...DOI Index:  26  of  261
+https://doi.org/10.1109/SP54263.2024.00131
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646862,
+  author={Xie, Xingyu and Li, Yifei and Zhang, Wei and Wang, Tuowei and Xu, Shizhen and Zhu, Jun and Song, Yifan},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={GAuV: A Graph-Based Automated Verification Framework for Perfect Semi-Honest Security of Multiparty Computation Protocols}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={484-502},
+  abstract={Proving the security of a Multiparty Computation (MPC) protocol is a difficult task. Under the current simulation-based definition of MPC, a security proof consists of a simulator, which is usually specific to the concrete protocol and requires to be manually constructed, together with a theoretical analysis of the output distribution of the simulator and corrupted parties’ views in the real world. This presents an obstacle in verifying the security of a given MPC protocol. Moreover, an instance of a secure MPC protocol can easily lose its security guarantee due to careless implementation, and such a security issue is hard to detect in practice.(p)(/p)In this work, we propose a general automated framework to verify the perfect security of instances of MPC protocols against the semi-honest adversary. Our framework has perfect soundness: any protocol that is proven secure under our framework is also secure under the simulation-based definition of MPC. We demonstrate the completeness of our framework by showing that for any instance of the well-known BGW protocol, our framework can prove its security for every corrupted party set with polynomial time. Unlike prior work that only focuses on black-box privacy which requires the outputs of corrupted parties to contain no information about the inputs of the honest parties, our framework may potentially be used to prove the security of arbitrary MPC protocols. (p)(/p)We implement our framework as a prototype. The evaluation shows that our prototype automatically proves the perfect semi-honest security of BGW protocols and B2A (binary to arithmetic) conversion protocols in reasonable durations.},
+  keywords={Privacy;Protocols;Automation;Prototypes;Closed box;Polynomials;Security;MPC protocol;perfect semi-honest security;automated verification;graph transformation},
+  doi={10.1109/SP54263.2024.00131},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  26  of  261
+
+
+START...DOI Index:  27  of  261
+https://doi.org/10.1109/SP54263.2024.00164
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646684,
+  author={Brüggemann, Andreas and Schick, Oliver and Schneider, Thomas and Suresh, Ajith and Yalame, Hossein},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Don’t Eject the Impostor: Fast Three-Party Computation With a Known Cheater}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={503-522},
+  abstract={Secure multi-party computation (MPC) enables (joint) computations on sensitive data while maintaining privacy. In real-world scenarios, asymmetric trust assumptions are often most realistic, where one somewhat trustworthy entity interacts with smaller clients. We generalize previous two-party computation (2PC) protocols like MUSE (USENIX Security’21) and SIMC (USENIX Security’22) to the three-party setting (3PC) with one malicious party, avoiding the performance limitations of dishonest-majority inherent to 2PC.We introduce two protocols, AUXILIATOR and SOCIUM, in a machine learning (ML) friendly design with a fast online phase and novel verification techniques in the setup phase. These protocols bridge the gap between prior 3PC approaches that considered either fully semi-honest or malicious settings. AUXILIATOR enhances the semi-honest two-party setting with a malicious helper, significantly improving communication by at least two orders of magnitude. SOCIUM extends the client-malicious setting with one malicious client and a semi-honest server, achieving substantial communication improvement by at least one order of magnitude compared to SIMC.Besides an implementation of our new protocols, we provide the first open-source implementation of the semi-honest 3PC protocol ASTRA (CCSW’19) and a variant of the malicious 3PC protocol SWIFT (USENIX Security’21).},
+  keywords={Privacy;Data privacy;Protocols;Machine learning;Multi-party computation;Servers;Security;Multi-Party Computation;Client-Malicious Setting;3PC;Asymmetric Trust;MPC},
+  doi={10.1109/SP54263.2024.00164},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  27  of  261
+
+
+START...DOI Index:  28  of  261
+https://doi.org/10.1109/SP54263.2024.00106
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646728,
+  author={Garg, Radhika and Yang, Kang and Katz, Jonathan and Wang, Xiao},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Scalable Mixed-Mode MPC}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={523-541},
+  abstract={Protocols for secure multi-party computation (MPC) supporting mixed-mode computation have found a lot of applications in recent years due to their flexibility in representing the function to be evaluated. However, existing mixed-mode MPC protocols are only practical for a small number of parties: they are either tailored to the case of two/three parties, or scale poorly for a large number of parties.In this paper, we design and implement a new system for highly efficient and scalable mixed-mode MPC tolerating an arbitrary number of semi-honest corruptions. Our protocols allow secret data to be represented in Encrypted, Boolean, Arithmetic, or Yao form, and support efficient conversions between these representations.1)We design a multi-party table-lookup protocol, where both the index and the table can be kept private. The protocol is scalable even with hundreds of parties.2)Using the above protocol, we design efficient conversions between additive arithmetic secret sharings and Boolean secret sharings for a large number of parties. For 32 parties, our conversion protocols require 1184× to 8141× less communication compared to the state-of-the-art protocols MOTION and MP-SPDZ; this leads to up to 1275× improvement in running time under 1 Gbps network. The improvements are even larger with more parties.3)We also use new protocols to design an efficient multi-party distributed garbling protocol. The protocol could achieve asymptotically constant communication per party.Our implementation will be made public.},
+  keywords={Privacy;Protocols;Additives;Multi-party computation;Complexity theory;Indexes;Arithmetic},
+  doi={10.1109/SP54263.2024.00106},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  28  of  261
+
+
+START...DOI Index:  29  of  261
+https://doi.org/10.1109/SP54263.2024.00128
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646656,
+  author={Karmakar, Banashri and Koti, Nishat and Patra, Arpita and Patranabis, Sikhar and Paul, Protik and Ravi, Divya},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Asterisk: Super-fast MPC with a Friend}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={542-560},
+  abstract={Secure multiparty computation (MPC) enables privacy-preserving collaborative computation over sensitive data held by multiple mutually distrusting parties. Unfortunately, in the most natural setting where a majority of the parties are maliciously corrupt (also called the dishonest majority setting), traditional MPC protocols incur high overheads and offer weaker security guarantees than are desirable for practical applications. In this paper, we explore the possibility of circumventing these drawbacks and achieving practically efficient dishonest majority MPC protocols with strong security guarantees by assuming an additional semi-honest, non-colluding helper party HP . 1 We believe that this is a more realistic alternative to assuming an honest majority, since many real-world applications of MPC involving potentially large numbers of parties (such as dark pools) are typically enabled by a central governing entity that can be modeled as the HP.In the above model, we are the first to design, implement and benchmark a practically-efficient and general multi-party framework, Asterisk. Our framework requires invoking HP only a constant number of times, achieves the strong security guarantee of fairness (either all parties learn the output or none do), scales to hundreds of parties, outperforms all existing dishonest majority MPC protocols, and is, in fact, competitive with state-of-the-art honest majority MPC protocols. Our experiments show that Asterisk achieves 228 – 288× speedup in preprocessing as compared to the best dishonest majority MPC protocol. With respect to online time, Asterisk supports 100-party evaluation of a circuit with 106 multiplication gates in approximately 20 seconds. We also implement and benchmark practically efficient and highly scalable dark pool instances using Asterisk. The corresponding run times showcase the effectiveness of Asterisk in enabling efficient realizations of real-world privacy-preserving applications with strong security guarantees.},
+  keywords={Privacy;Protocols;Collaboration;Benchmark testing;Logic gates;Security;Multiparty Computation;Dishonest Majority;Fairness;Dark pool},
+  doi={10.1109/SP54263.2024.00128},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  29  of  261
+
+
+START...DOI Index:  30  of  261
+https://doi.org/10.1109/SP54263.2024.00205
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646747,
+  author={Zhang, Wenhao and Guo, Xiaojie and Yang, Kang and Zhu, Ruiyu and Yu, Yu and Wang, Xiao},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Efficient Actively Secure DPF and RAM-based 2PC with One-Bit Leakage}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={561-577},
+  abstract={Secure two-party computation (2PC) in the RAM model has attracted huge attention in recent years. Most existing results only support semi-honest security, with the exception of Keller and Yanai (Eurocrypt 2018) with very high cost. In this paper, we propose an efficient RAM-based 2PC protocol with active security and one-bit leakage.1)We propose an actively secure protocol for distributed point function (DPF), with one-bit leakage, that is essentially as efficient as the state-of-the-art semi-honest protocol. Compared with previous work, our protocol takes about 50× less communication for a domain with 220 entries, and no longer requires actively secure generic 2PC.2)We extend the dual-execution protocol to allow reactive computation, and then build a RAM-based 2PC protocol with active security on top of our new building blocks. The protocol follows the paradigm of Doerner and shelat (CCS 2017). We are able to prove that the protocol has end-to-end one-bit leakage.3)Our implementation shows that our protocol is almost as efficient as the state-of-the-art semi-honest RAM-based 2PC protocol, and is at least two orders of magnitude faster than prior actively secure RAM-based 2PC without leakage, providing a realistic trade-off in practice.},
+  keywords={Privacy;Protocols;Costs;Computational modeling;Random access memory;Security;Distributed Point Function;RAM-based 2PC;Dual Execution;Active Security},
+  doi={10.1109/SP54263.2024.00205},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  30  of  261
+
+
+START...DOI Index:  31  of  261
+https://doi.org/10.1109/SP54263.2024.00157
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646719,
+  author={Bai, Weihao and Chen, Long and Gao, Qianwen and Zhang, Zhenfeng},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={MPC-in-the-Head Framework without Repetition and its Applications to the Lattice-based Cryptography}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={578-596},
+  abstract={The MPC-in-the-Head framework has been proposed as a solution for Non-Interactive Zero-Knowledge Arguments of Knowledge (NIZKAoK) due to its efficient proof generation. However, most existing NIZKAoK constructions using this approach require multiple MPC evaluations to achieve negligible soundness error, resulting in proof size and time that are asymptotically at least λ times the size of the circuit of the NP relation. In this paper, we propose a novel method to eliminate the need for repeated MPC evaluations, resulting in a NIZKAoK protocol for any NP relation that we call Diet. The proof size and time of Diet are asymptotically only polylogarithmic with respect to the size of the circuit C of the NP relation, but are independent of the security parameter λ. Hence, both the proof size and time can be significantly reduced.Moreover, Diet offers promising concrete efficiency for proving Learning With Errors (LWE) problems and its variants. Our solution provides significant advantages over other schemes in terms of both proof size and proof time, when considering both factors together. Specifically, Diet is a promising method for proving knowledge of secret keys for lattice-based key encapsulation mechanisms (KEMs) such as Frodo and Kyber, offering a practical solution to future post-quantum certificate management. For Kyber 512, our implementation achieves an online proof size of 83.65 kilobytes (KB) with a preprocessing overhead of 152.02KB. The implementation is highly efficient, with an online proof time of only 0.68 seconds and a preprocessing time of 0.81 seconds. Notably, our approach provides the first reported implementation of proving knowledge of secret keys for Kyber 512 using post-quantum primitives-based zero-knowledge proofs.},
+  keywords={Encapsulation;Privacy;Protocols;Cryptography},
+  doi={10.1109/SP54263.2024.00157},
+  ISSN={2375-1207},
+  month={May},}
+
+Failed to scrape content from <pre> tag: 'charmap' codec can't encode character '\u03bb' in position 738: character maps to <undefined>
+END...DOI Index:  31  of  261
+
+
+START...DOI Index:  32  of  261
+https://doi.org/10.1109/SP54263.2024.00063
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646833,
+  author={Jawalkar, Neha and Gupta, Kanav and Basu, Arkaprava and Chandran, Nishanth and Gupta, Divya and Sharma, Rahul},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Orca: FSS-based Secure Training and Inference with GPUs}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={597-616},
+  abstract={Secure Two-party Computation (2PC) allows two parties to compute any function on their private inputs without revealing their inputs to each other. In the offline/on- line model for 2PC, correlated randomness that is independent of all inputs to the computation, is generated in a preprocessing (offline) phase and this randomness is then utilized in the online phase once the inputs to the parties become available. Most 2PC works focus on optimizing the online time as this overhead lies on the critical path. A recent paradigm for obtaining efficient 2PC protocols with low online cost is based on the cryptographic technique of function secret sharing (FSS).We build an end-to-end system Orca to accelerate the computation of FSS-based 2PC protocols with GPUs. Next, we observe that the main performance bottleneck in such accelerated protocols is in storage (due to the large amount of correlated randomness), and we design new FSS-based 2PC protocols for several key functionalities in ML which reduce storage by up to 5×. Compared to prior state-of-the-art on secure training accelerated with GPUs in the same computation model (PIRANHA, Usenix Security 2022), we show that Orca has 4% higher accuracy, 98 × lesser communication, and is 22 × faster on CIFAR-10. For secure ImageNet inference, Orca achieves sub-second latency for VGG-16 and ResNet-50 and outperforms the state-of-the-art by 8 — 103 ×.},
+  keywords={Training;Privacy;Protocols;Accuracy;Costs;Computational modeling;Data preprocessing;Function Secret Sharing;GPU;Secure Machine Learning;Secure Multi-party Computation},
+  doi={10.1109/SP54263.2024.00063},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  32  of  261
+
+
+START...DOI Index:  33  of  261
+https://doi.org/10.1109/SP54263.2024.00004
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646788,
+  author={Tran, Mindy and Munyendo, Collins W. and Sri Ramulu, Harshini and Rodriguez, Rachel Gonzalez and Ball Schnell, Luisa and Sula, Cora and Simko, Lucy and Acar, Yasemin},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Security, Privacy, and Data-sharing Trade-offs When Moving to the United States: Insights from a Qualitative Study}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={617-634},
+  abstract={Moving to a new country often means that people leave their "known environment" and interact with new entities, often sharing sensitive and personal information. This exposes them to various risks. In this study, we investigate the challenges and concerns related to security, privacy, and data-sharing for people who have recently moved to the United States. Through semi-structured interviews (n=25), we find that most participants feel uncomfortable sharing documents containing their personal and sensitive information for the visa process e.g., their financial information and proof of relationship. Sharing this information makes participants concerned about their safety and privacy and sometimes violates their cultural information-sharing norms. Moving to a new environment, particularly to the US, also makes people vulnerable to fraud, specifically fraudulent online renting posts and scam calls. Those who move also navigate bureaucratic, administrative, and technical challenges that exacerbate their perceived security and privacy concerns. We further find a power imbalance that compels visa applicants to share all required information—to avoid getting their visa rejected—without feeling fully informed about the requirements and safeguards in place. Our study highlights the need for more guidance, transparency, and respect for individuals’ privacy from embassies and for technology designers to better support and protect those moving countries.},
+  keywords={Privacy;Data privacy;Navigation;Safety;Fraud;Security;Cultural differences;Security;Privacy;Concerns;Migration},
+  doi={10.1109/SP54263.2024.00004},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  33  of  261
+
+
+START...DOI Index:  34  of  261
+https://doi.org/10.1109/SP54263.2024.00071
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646660,
+  author={Bellini, Rosanna and Tseng, Emily and Warford, Noel and Daffalla, Alaa and Matthews, Tara and Consolvo, Sunny and Woelfer, Jill Palzkill and Gage Kelley, Patrick and Mazurek, Michelle L. and Cuomo, Dana and Dell, Nicola and Ristenpart, Thomas},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={SoK: Safer Digital-Safety Research Involving At-Risk Users}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={635-654},
+  abstract={Research involving at-risk users—that is, users who are more likely to experience a digital attack or to be disproportionately affected when harm from such an attack occurs—can pose significant safety challenges to both users and researchers. Nevertheless, pursuing research in computer security & privacy (S&P) is crucial to understanding how to meet the digital-safety needs of at-risk users and to design safer technology for all. To standardize and bolster safer research involving such users, we offer an analysis of 196 academic works to elicit 14 research risks and 36 safety practices used by a growing community of researchers. We pair this inconsistent set of reported safety practices with oral histories from 12 domain experts to contribute scaffolded and consolidated pragmatic guidance that researchers can use to plan, execute, and share safer digital-safety research involving at-risk users. We conclude by suggesting areas for future research regarding the reporting, study, and funding of at-risk user research.},
+  keywords={Privacy;Safety;History;Computer security;Pragmatics;privacy;security;at-risk users;digital-safety;research risks},
+  doi={10.1109/SP54263.2024.00071},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  34  of  261
+
+
+START...DOI Index:  35  of  261
+https://doi.org/10.1109/SP54263.2024.00116
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646811,
+  author={EdalatNejad, Kasra and Lueks, Wouter and Sukaitis, Justinas and Narbel, Vincent Graf and Marelli, Massimo and Troncoso, Carmela},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Janus: Safe Biometric Deduplication for Humanitarian Aid Distribution}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={655-672},
+  abstract={Humanitarian organizations provide aid to people in need. To use their limited budget efficiently, their distribution processes must ensure that legitimate recipients cannot receive more aid than they are entitled to. Thus, it is essential that recipients can register at most once per aid program.Taking the International Committee of the Red Cross’s aid distribution registration process as a use case, we identify the requirements to detect double registration without creating new risks for aid recipients. We then design Janus, which combines privacy-enhancing technologies with biometrics to prevent double registration in a safe manner. Janus does not create plaintext biometric databases and reveals only one bit of information at registration time (whether the user registering is present in the database or not). We implement and evaluate three instantiations of Janus based on secure multiparty computation (SMC) alone, a hybrid of somewhat homomorphic encryption and SMC, and trusted execution environments. We demonstrate that they support the privacy, accuracy, and performance needs of humanitarian organizations. We compare Janus with existing alternatives and show it is the first system that provides the accuracy our scenario requires while providing strong protection.},
+  keywords={Biometrics;Privacy;Accuracy;Databases;Technology;Organizations;Turning;privacy-preserving biometric deduplication;privacy enhancing technologies;boimetric deduplication;secure multiparty computation;somewhat homomorphic encryption;trusted execution environment;humanitarian aid distribution},
+  doi={10.1109/SP54263.2024.00116},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  35  of  261
+
+
+START...DOI Index:  36  of  261
+https://doi.org/10.1109/SP54263.2024.00206
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646758,
+  author={Birrell, Eleanor and Rodolitz, Jay and Ding, Angel and Lee, Jenna and McReynolds, Emily and Hutson, Jevan and Lerner, Ada},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={SoK: Technical Implementation and Human Impact of Internet Privacy Regulations}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={673-696},
+  abstract={Growing recognition of the potential for exploitation of personal data and of the shortcomings of prior privacy regimes has led to the passage of a multitude of new privacy regulations. Some of these laws—notably the European Union’s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA)—have been the focus of large bodies of research by the computer science community, while others have received less attention. In this work, we analyze a set of 24 privacy laws and data protection regulations drawn from around the world—both those that have frequently been studied by computer scientists and those that have not—and develop a taxonomy of rights granted and obligations imposed by these laws. We then leverage this taxonomy to systematize 270 technical research papers published in computer science venues that investigate the impact of these laws and explore how technical solutions can complement legal protections. Finally, we analyze the results in this space through an inter-disciplinary lens and make recommendations for future work at the intersection of computer science and legal privacy.},
+  keywords={Computer science;Law;Taxonomy;Europe;Regulation;Internet privacy;General Data Protection Regulation;SoK;Privacy Regulations;Data Protection;Usable Privacy;Measurements},
+  doi={10.1109/SP54263.2024.00206},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  36  of  261
+
+
+START...DOI Index:  37  of  261
+https://doi.org/10.1109/SP54263.2024.00027
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646701,
+  author={Herbert, Franziska and Becker, Steffen and Buckmann, Annalina and Kowalewski, Marvin and Hielscher, Jonas and Acar, Yasemin and Dürmuth, Markus and Zou, Yixin and Sasse, M. Angela},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Digital Security — A Question of Perspective A Large-Scale Telephone Survey with Four At-Risk User Groups}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={697-716},
+  abstract={This paper investigates the digital security experiences of four at-risk user groups in Germany, including older adults (70+), teenagers (14-17), people with migration backgrounds, and people with low formal education. Using computer-assisted telephone interviews, we sampled 250 participants per group, representative of region, gender, and partly age distributions. We examine their device usage, concerns, prior negative incidents, perceptions of potential attackers, and information sources. Our study provides the first quantitative and nationally representative insights into the digital security experiences of these four at-risk groups in Germany. Our findings show that participants with migration backgrounds used the most devices, sought more security information, and reported more experiences with cybercrime incidents than other groups. Older adults used the fewest devices and were least affected by cybercrimes. All groups relied on friends and family and online news as their primary sources of security information, with little concern about their social circles being potential attackers. We highlight the nuanced differences between the four at-risk groups and compare them to the broader German population when possible. We conclude by presenting recommendations for education, policy, and future research aimed at addressing the digital security needs of these at-risk user groups.},
+  keywords={Surveys;Privacy;Social networking (online);Education;Media;Telephone sets;Security},
+  doi={10.1109/SP54263.2024.00027},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  37  of  261
+
+
+START...DOI Index:  38  of  261
+https://doi.org/10.1109/SP54263.2024.00007
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646800,
+  author={Vu, Anh V. and Hutchings, Alice and Anderson, Ross},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={No Easy Way Out: the Effectiveness of Deplatforming an Extremist Forum to Suppress Hate and Harassment}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={717-734},
+  abstract={Legislators and policymakers worldwide are debating options for suppressing illegal, harmful and undesirable material online. Drawing on several quantitative data sources, we show that deplatforming an active community to suppress online hate and harassment, even with a substantial concerted effort involving several tech firms, can be hard. Our case study is the disruption of the largest and longest-running harassment forum Kiwi Farms in late 2022, which is probably the most extensive industry effort to date. Despite the active participation of a number of tech companies over several consecutive months, this campaign failed to shut down the forum and remove its objectionable content. While briefly raising public awareness, it led to rapid platform displacement and traffic fragmentation. Part of the activity decamped to Telegram, while traffic shifted from the primary domain to previously abandoned alternatives. The forum experienced intermittent outages for several weeks, after which the community leading the campaign lost interest, traffic was directed back to the main domain, users quickly returned, and the forum was back online and became even more connected. The forum members themselves stopped discussing the incident shortly thereafter, and the net effect was that forum activity, active users, threads, posts and traffic were all cut by about half. The disruption largely affected casual users (of whom roughly 87% left), while half the core members remained engaged. It also drew many newcomers, who exhibited increasing levels of toxicity during the first few weeks of participation. Deplatforming a community without a court order raises philosophical issues about censorship versus free speech; ethical and legal issues about the role of industry in online content moderation; and practical issues on the efficacy of private-sector versus government action. Deplatforming a dispersed community using a series of court orders against individual service providers appears unlikely to be very effective if the censor cannot incapacitate the key maintainers, whether by arresting them, enjoining them or otherwise deterring them.},
+  keywords={Industries;Privacy;Ethics;Toxicology;Law enforcement;Terrorism;Soft sensors},
+  doi={10.1109/SP54263.2024.00007},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  38  of  261
+
+
+START...DOI Index:  39  of  261
+https://doi.org/10.1109/SP54263.2024.00014
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646600,
+  author={Du, Xiaolin and Yang, Zhemin and Lin, Jiapeng and Cao, Yinzhi and Yang, Min},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Withdrawing is believing? Detecting Inconsistencies between Withdrawal Choices and Third-party Data Collections in Mobile Apps}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={735-751},
+  abstract={Popular privacy regulations such as General Data Protection Regulation (GDPR) often allow consumers to withdraw from providing data, e.g., the famous right to opt-out. Modern computer software, e.g., mobile applications (apps), often provide withdrawal interfaces, which stop data collection— e.g., from third-party ads and analytics libraries—to respect users’ withdrawal decisions. While such interfaces are marked as "withdrawal", their correlated withdrawal decisions are often inconsistent with the apps’ actual data collection behavior, especially from third parties, which is defined as withdrawal inconsistency in the paper.Prior works have either studied website withdrawal inconsistency or privacy leaks of mobile apps. However, the mobile withdrawal inconsistency problem is different yet more complex than those in websites due to the diversity in mobile withdrawal interface and the variety of private information. At the same time, none of the existing works detecting privacy leaks of mobile apps understand users’ withdrawal decisions let alone correlate them with withdrawal behaviors.In this paper, we design and implement a novel approach, called MowChecker, to detect mobile apps’ inconsistencies in third-party data collection. The key insight is that withdrawal choices should have either a control-flow dependency on personal information flow or a data-flow dependency on withdrawal APIs provided by third-party data collection libraries. Our evaluation of MowChecker on real-world Android apps reveals 157 manually-confirmed, zero-day withdrawal inconsistencies. We have responsibly reported them to app developers and received 23 responses with two being fixed.},
+  keywords={Data privacy;Manuals;Data collection;Libraries;Software;Regulation;Mobile applications;Privacy;Withdrawal Choices;Mobile Apps},
+  doi={10.1109/SP54263.2024.00014},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  39  of  261
+
+
+START...DOI Index:  40  of  261
+https://doi.org/10.1109/SP54263.2024.00184
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646866,
+  author={Sowon, Karen and Luhanga, Edith and Cranor, Lorrie Faith and Fanti, Giulia and Tucker, Conrad and Gueye, Assane},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={The Role of User-Agent Interactions on Mobile Money Practices in Kenya and Tanzania}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={752-769},
+  abstract={Digital financial services have catalyzed financial inclusion in Africa. Commonly implemented as a mobile wallet service referred to as mobile money (MoMo), the technology provides enormous benefits to its users, some of whom have long been unbanked. While the benefits of mobile money services have largely been documented, the challenges that arise—especially in the interactions between human stakeholders—remain relatively unexplored. In this study, we investigate the practices of mobile money users in their interactions with mobile money agents. We conduct 72 structured interviews in Kenya and Tanzania (n=36 per country). The results show that users and agents design workarounds in response to limitations and challenges that users face within the ecosystem. These include advances or loans from agents, relying on the user-agent relationships in place of legal identification requirements, and altering the intended transaction execution to improve convenience. Overall, the workarounds modify one or more of what we see as the core components of mobile money: the user, the agent, and the transaction itself. The workarounds pose new risks and challenges for users and the overall ecosystem. The results suggest a need for rethinking privacy and security of various components of the ecosystem, as well as policy and regulatory controls to safeguard interactions while ensuring the usability of mobile money.},
+  keywords={Privacy;Law;Ecosystems;Africa;Security;Usability;Interviews;Mobile Money;user-agent interaction;digital financial systems;usable privacy and security;technology workarounds},
+  doi={10.1109/SP54263.2024.00184},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  40  of  261
+
+
+START...DOI Index:  41  of  261
+https://doi.org/10.1109/SP54263.2024.00061
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646749,
+  author={He, Xinlei and Zannettou, Savvas and Shen, Yun and Zhang, Yang},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={You Only Prompt Once: On the Capabilities of Prompt Learning on Large Language Models to Tackle Toxic Content}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={770-787},
+  abstract={The spread of toxic content online is an important problem that has adverse effects on user experience online and in our society at large. Motivated by the importance and impact of the problem, research focuses on developing solutions to detect toxic content, usually leveraging machine learning (ML) models trained on human-annotated datasets. While these efforts are important, these models usually do not generalize well and they can not cope with new trends (e.g., the emergence of new toxic terms). Currently, we are witnessing a shift in the approach to tackling societal issues online, particularly leveraging large language models (LLMs) like GPT-3 or T5 that are trained on vast corpora and have strong generalizability. In this work, we investigate how we can use LLMs and prompt learning to tackle the problem of toxic content, particularly focusing on three tasks; 1) Toxicity Classification, 2) Toxic Span Detection, and 3) Detoxification. We perform an extensive evaluation over five model architectures and eight datasets demonstrating that LLMs with prompt learning can achieve similar or even better performance compared to models trained on these specific tasks. We find that prompt learning achieves around 10% improvement in the toxicity classification task compared to the baselines, while for the toxic span detection task we find better performance to the best baseline (0.643 vs. 0.640 in terms of F1-score). Finally, for the detoxification task, we find that prompt learning can successfully reduce the average toxicity score (from 0.775 to 0.213) while preserving semantic meaning.1},
+  keywords={Privacy;Toxicology;Large language models;Semantics;Predictive models;Market research;User experience},
+  doi={10.1109/SP54263.2024.00061},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  41  of  261
+
+
+START...DOI Index:  42  of  261
+https://doi.org/10.1109/SP54263.2024.00181
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646809,
+  author={Vishwamitra, Nishant and Guo, Keyan and Romit, Farhan Tajwar and Ondracek, Isabelle and Cheng, Long and Zhao, Ziming and Hu, Hongxin},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Moderating New Waves of Online Hate with Chain-of-Thought Reasoning in Large Language Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={788-806},
+  abstract={Online hate is an escalating problem that negatively impacts the lives of Internet users, and is also subject to rapid changes due to evolving events, resulting in new waves of online hate that pose a critical threat. Detecting and mitigating these new waves present two key challenges: it demands reasoning-based complex decision-making to determine the presence of hateful content, and the limited availability of training samples hinders updating the detection model. To address this critical issue, we present a novel framework called HateGuard for effectively moderating new waves of online hate. HateGuard employs a reasoning-based approach that leverages the recently introduced chain-of-thought (CoT) prompting technique, harnessing the capabilities of large language models (LLMs). HateGuard further achieves prompt-based zero-shot detection by automatically generating and updating detection prompts with new derogatory terms and targets in new wave samples to effectively address new waves of online hate. To demonstrate the effectiveness of our approach, we compile a new dataset consisting of tweets related to three recently witnessed new waves: the 2022 Russian invasion of Ukraine, the 2021 insurrection of the US Capitol, and the COVID-19 pandemic. Our studies reveal crucial longitudinal patterns in these new waves concerning the evolution of events and the pressing need for techniques to rapidly update existing moderation tools to counteract them. Comparative evaluations against state-of-the-art approaches illustrate the superiority of our framework, showcasing a substantial 10.59% to 88% improvement in detecting the three new waves of online hate. Our work highlights the severe threat posed by the emergence of new waves of online hate and represents a paradigm shift in addressing this threat practically.},
+  keywords={Training;COVID-19;Privacy;Pandemics;Large language models;Decision making;Pressing;New Waves of Online Hate;Chain of Thought;Large Language Models},
+  doi={10.1109/SP54263.2024.00181},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  42  of  261
+
+
+START...DOI Index:  43  of  261
+https://doi.org/10.1109/SP54263.2024.00207
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646851,
+  author={Shan, Shawn and Ding, Wenxin and Passananti, Josephine and Wu, Stanley and Zheng, Haitao and Zhao, Ben Y.},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Nightshade: Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={807-825},
+  abstract={Trained on billions of images, diffusion-based text-to-image models seem impervious to traditional data poisoning attacks, which typically require poison samples approaching 20% of the training set. In this paper, we show that state-of-the-art text-to-image generative models are in fact highly vulnerable to poisoning attacks. Our work is driven by two key insights. First, while diffusion models are trained on billions of samples, the number of training samples associated with a specific concept or prompt is generally on the order of thousands. This suggests that these models will be vulnerable to prompt-specific poisoning attacks that corrupt a model’s ability to respond to specific targeted prompts. Second, poison samples can be carefully crafted to maximize poison potency to ensure success with very few samples.We introduce Nightshade, a prompt-specific poisoning attack optimized for potency that can completely control the output of a prompt in Stable Diffusion’s newest model (SDXL) with less than 100 poisoned training samples. Nightshade also generates stealthy poison images that look visually identical to their benign counterparts, and produces poison effects that "bleed through" to related concepts. More importantly, a moderate number of Nightshade attacks on independent prompts can destabilize a model and disable its ability to generate images for any and all prompts. Finally, we propose the use of Nightshade and similar tools as a defense for content owners against web scrapers that ignore opt-out/do-not-crawl directives, and discuss potential implications for both model trainers and content owners.},
+  keywords={Training;Procurement;Data privacy;Toxicology;Text to image;Training data;Diffusion models},
+  doi={10.1109/SP54263.2024.00207},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  43  of  261
+
+
+START...DOI Index:  44  of  261
+https://doi.org/10.1109/SP54263.2024.00208
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646642,
+  author={Zhang, Zhuo and Shen, Guangyu and Tao, Guanhong and Cheng, Siyuan and Zhang, Xiangyu},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={On Large Language Models’ Resilience to Coercive Interrogation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={826-844},
+  abstract={Large Language Models (LLMs) are increasingly employed in numerous applications. It is hence important to ensure that their ethical standard aligns with humans’. However, existing jail-breaking efforts show that such alignment could be compromised by well-crafted prompts. In this paper, we disclose a new threat to LLMs alignment when a malicious actor has access to the top-k token predictions at each output position of the model, such as in all open-source LLMs and many commercial LLMs that provide the needed APIs (e.g., some GPT versions). It does not require crafting any prompt. Instead, it leverages the observation that even when an LLM declines a toxic query, the harmful response is concealed deep within the output logits. We can coerce the model to disclose it by forcefully using low-ranked output tokens during auto-regressive output generation, and such forcing is only needed in a very small number of selected output positions. We call it model interrogation. Since our method operates differently from jail-breaking, it has better effectiveness than state-of-the- art jail-breaking techniques (92% versus 62%) and is 10 to 20 times faster. The toxic content elicited by our method is also of better quality. More importantly, it is complementary to jail-breaking, and a synergetic integration of the two exhibits superior performance over individual methods. We also find that with interrogation, harmful content can even be extracted from models customized for coding tasks.},
+  keywords={Privacy;Ethics;Art;Large language models;Predictive models;Encoding;Security},
+  doi={10.1109/SP54263.2024.00208},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  44  of  261
+
+
+START...DOI Index:  45  of  261
+https://doi.org/10.1109/SP54263.2024.00209
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646612,
+  author={Yao, Hongwei and Lou, Jian and Qin, Zhan and Ren, Kui},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={845-861},
+  abstract={Large language models (LLMs) have witnessed a meteoric rise in popularity among the general public users over the past few months, facilitating diverse downstream tasks with human-level accuracy and proficiency. Prompts play an essential role in this success, which efficiently adapt pre-trained LLMs to task-specific applications by simply prepending a sequence of tokens to the query texts. However, designing and selecting an optimal prompt can be both expensive and demanding, leading to the emergence of Prompt-as-a-Service providers who profit by providing well-designed prompts for authorized use. With the growing popularity of prompts and their indispensable role in LLM-based services, there is an urgent need to protect the copyright of prompts against unauthorized use.In this paper, we propose PromptCARE, the first framework for prompt copyright protection through watermark injection and verification. Prompt watermarking presents unique challenges that render existing watermarking techniques developed for model and dataset copyright verification ineffective. PromptCARE overcomes these hurdles by proposing watermark injection and verification schemes tailor-made for characteristics pertinent to prompts and the natural language domain. Extensive experiments on six well-known benchmark datasets, using three prevalent pre-trained LLMs (BERT, RoBERTa, and Facebook OPT-1.3b), demonstrate the effectiveness, harmlessness, robustness, and stealthiness of PromptCARE.},
+  keywords={Authorization;Privacy;Social networking (online);Large language models;Natural languages;Watermarking;Copyright protection;Large Language Models;Prompt Watermarking;Prompt Learning},
+  doi={10.1109/SP54263.2024.00209},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  45  of  261
+
+
+START...DOI Index:  46  of  261
+https://doi.org/10.1109/SP54263.2024.00210
+Failed to scrape content from <pre> tag: Message: element click intercepted: Element <button _ngcontent-kph-c168="" class="xpl-btn-secondary">...</button> is not clickable at point (75, 560). Other element would receive the click: <span id="b0288556-6d27-46fa-ab73-e80b1bb0297c__label" class=" osano-cm-content__message osano-cm-message ">...</span>
+  (Session info: chrome=131.0.6778.109)
+Stacktrace:
+	GetHandleVerifier [0x00903433+25059]
+	(No symbol) [0x0088CE34]
+	(No symbol) [0x0076BEC3]
+	(No symbol) [0x007B5D37]
+	(No symbol) [0x007B4189]
+	(No symbol) [0x007B1DAD]
+	(No symbol) [0x007B10AF]
+	(No symbol) [0x007A5FD7]
+	(No symbol) [0x007D1EFC]
+	(No symbol) [0x007A5A24]
+	(No symbol) [0x007D2194]
+	(No symbol) [0x007EB51E]
+	(No symbol) [0x007D1C96]
+	(No symbol) [0x007A3FAC]
+	(No symbol) [0x007A4F3D]
+	GetHandleVerifier [0x00BF5593+3113795]
+	GetHandleVerifier [0x00C0A25A+3198986]
+	GetHandleVerifier [0x00C02A32+3168226]
+	GetHandleVerifier [0x009A32A0+680016]
+	(No symbol) [0x0089577D]
+	(No symbol) [0x00892A28]
+	(No symbol) [0x00892BC5]
+	(No symbol) [0x00885820]
+	BaseThreadInitThunk [0x766C7BA9+25]
+	RtlInitializeExceptionChain [0x7750C0CB+107]
+	RtlClearBits [0x7750C04F+191]
+
+END...DOI Index:  46  of  261
+
+
+START...DOI Index:  47  of  261
+https://doi.org/10.1109/SP54263.2024.00211
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646659,
+  author={Wang, Jincheng and Yu, Le and Luo, Xiapu},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={LLMIF: Augmented Large Language Model for Fuzzing IoT Devices}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={881-896},
+  abstract={Despite the efficacy of fuzzing in verifying the implementation correctness of network protocols, existing IoT protocol fuzzing approaches grapple with several limitations, including obfuscated message formats, unresolved message dependencies, and a lack of evaluations on the testing cases. These limitations significantly curtail the capabilities of IoT fuzzers in vulnerability identification. In this work, we show that the protocol specification contains fruitful descriptions of protocol messages, which can be used to overcome the above limitations and guide IoT protocol fuzzing. To automate the specification analysis, we augment the large language model with the specification contents, and drive it to perform two tasks (i.e., protocol information extraction, and device response reasoning). We further design and implement a fuzzing algorithm, LLMIF, which incorporates the LLM into IoT fuzzing. Finally, we select Zigbee as the target protocol and initiate comprehensive evaluations. The evaluation result shows that LLMIF successfully addressed the above limitations. Compared with the existing Zigbee fuzzers, it increases the protocol message coverage and code coverage by 55.2% and 53.9%, respectively. Besides the enhanced coverage, LLMIF unearthed 11 vulnerabilities on real-world Zigbee devices, which include eight previously unknown vulnerabilities. Seven of them are not covered by the existing Zigbee fuzzers.},
+  keywords={Privacy;Protocols;Codes;Large language models;Zigbee;Fuzzing;Internet of Things;fuzzing;IoT device;large language model},
+  doi={10.1109/SP54263.2024.00211},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  47  of  261
+
+
+START...DOI Index:  48  of  261
+https://doi.org/10.1109/SP54263.2024.00123
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646735,
+  author={Yang, Yuchen and Hui, Bo and Yuan, Haolin and Gong, Neil and Cao, Yinzhi},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={SneakyPrompt: Jailbreaking Text-to-image Generative Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={897-912},
+  abstract={Text-to-image generative models such as Stable Diffusion and DALL•E raise many ethical concerns due to the generation of harmful images such as Not-Safe-for-Work (NSFW) ones. To address these ethical concerns, safety filters are often adopted to prevent the generation of NSFW images. In this work, we propose SneakyPrompt, the first automated attack framework, to jailbreak text-to-image generative models such that they generate NSFW images even if safety filters are adopted. Given a prompt that is blocked by a safety filter, SneakyPrompt repeatedly queries the text-to-image generative model and strategically perturbs tokens in the prompt based on the query results to bypass the safety filter. Specifically, SneakyPrompt utilizes reinforcement learning to guide the perturbation of tokens. Our evaluation shows that SneakyPrompt successfully jailbreaks DALL•E 2 with closed-box safety filters to generate NSFW images. Moreover, we also deploy several state-of-the-art, open-source safety filters on a Stable Diffusion model. Our evaluation shows that SneakyPrompt not only successfully generates NSFW images, but also outperforms existing text adversarial attacks when extended to jailbreak text-to-image generative models, in terms of both the number of queries and qualities of the generated NSFW images. SneakyPrompt is open-source and available at this repository: https://github.com/Yuchen413/text2image_safety.},
+  keywords={Ethics;Privacy;Filters;Perturbation methods;Text to image;Closed box;Reinforcement learning;Text-to-image models;Jailbreaking;Not-Safe-For-Work (NSFW)},
+  doi={10.1109/SP54263.2024.00123},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  48  of  261
+
+
+START...DOI Index:  49  of  261
+https://doi.org/10.1109/SP54263.2024.00166
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646774,
+  author={Lu, Yun and Magdon-Ismail, Malik and Wei, Yu and Zikas, Vassilis},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Eureka: A General Framework for Black-box Differential Privacy Estimators}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={913-931},
+  abstract={Differential privacy (DP) is a key tool in privacy-preserving data analysis. Yet it remains challenging for non-privacy-experts to prove the DP of their algorithms. We propose a methodology for domain experts with limited data privacy background to empirically estimate the privacy of an arbitrary mechanism. Our Eureka moment is a new link— which we prove—between the problems of DP parameter-estimation and Bayes optimal classifiers in ML, which we believe can be of independent interest. Our estimator uses this link to achieve two desirable properties: (1) black-box, i.e., it does not require knowledge of the underlying mechanism, and (2) it has a theoretically-proven accuracy, depending on the underlying classifier used, allowing plug-and-play use of different classifiers.More concretely, motivated by the impossibility of the above task for unrestricted input domains (which we prove), we introduce a natural, application-inspired relaxation of DP which we term relative DP. Intuitively, relative DP defines a mechanism's privacy relative to an input set$\mathcal{T}$, circumventing the above impossibility when $\mathcal{T}$ is finite. Importantly, it preserves the key intuitive privacy guarantee of DP while enjoying a number of desirable DP properties—scalability, composition, and robustness to post-processing. We then devise a black-box poly-time (ε, δ)-relative DP estimator for any poly-size $\mathcal{T}$— the first privacy estimator to support mechanisms with large output spaces while having tight accuracy bounds. As a result of independent interest, we generalize our theory to develop the first Distributional Differential Privacy (DDP) estimator.We benchmark our estimator in a proof-of-concept implementation. First, using kNN as the classifier we show that our method (1) produces a tight, analytically computed (ε,δ)-DP trade-off of low-dimensional Laplace and Gaussian mechanisms—the first to do so, (2) accurately estimates the privacy spectrum of DDP mechanisms, and (3) can verify a DP mechanism's implementations, e.g., Sparse Vector Technique, Noisy Histogram, and Noisy max. Our implementation and experiments demonstrate the potential of our framework, and highlight its computational bottlenecks in estimating DP, e.g., in terms of the size of δ and the data dimensionality. Our second, neural-network-based instantiation makes a first step in showing that our method can be extended to mechanisms with high-dimensional outputs.},
+  keywords={Privacy;Differential privacy;Histograms;Accuracy;Closed box;Vectors;Robustness;Differential privacy; Bayes classifier; machine learning; kNN},
+  doi={10.1109/SP54263.2024.00166},
+  ISSN={2375-1207},
+  month={May},}
+
+Failed to scrape content from <pre> tag: 'charmap' codec can't encode character '\u03b5' in position 1707: character maps to <undefined>
+END...DOI Index:  49  of  261
+
+
+START...DOI Index:  50  of  261
+https://doi.org/10.1109/SP54263.2024.00088
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646708,
+  author={Ashena, Narges and Inel, Oana and Persaud, Badrie L. and Bernstein, Abraham},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Casual Users and Rational Choices within Differential Privacy}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={932-950},
+  abstract={In light of recent growth in privacy awareness and data ownership rights, differential privacy (DP) has emerged as a promising technique employed by several well-known data controller entities. This raises the question of how casual users, as the immediate recipients of privacy threats and risks, comprehend and perceive DP and its key parameter ε, as DP’s provided protection depends on it. Existing studies show that ordinary users have the potential to understand the fundamental mechanism of DP and its implications for the privacy-utility trade-off when they are communicated clearly through textual and visual aids and, accordingly, make informed decisions about sharing their data under differential privacy protection. However, these attempts either only implicitly mention a few possible values for ε, such as low, medium, and high, or altogether leave it out of the communication. In this paper, we conduct a between-subject user study (N = 426) to investigate the effectiveness of nine interactive visual tools to communicate ε explicitly and on a continuous scale in a data-sharing scenario related to publishing positive COVID-19 test results. These interactive visual tools allow casual users to visualize DP’s effects on data accuracy and/or privacy loss for various ε values. We found that visualizations incorporating the privacy loss component have a significant impact on assisting users in selecting values that are closer to the recommended values by experts. However, depending on the ratio between DP noise and underlying data, the accuracy loss component disparately affects users’ ε decision; the bigger the relative error, the bigger the selected epsilon and vice versa. Thus, accuracy portrayals should be carried out with care. We contextualize our findings in the existing literature and conclude with insights and recommendations on effectively employing our findings to communicate differential privacy to casual users.},
+  keywords={Visualization;Privacy;Differential privacy;Accuracy;Publishing;Law;Noise;differential privacy;interactive ε visualizations;casual users’ perceptions;privacy-accuracy trade-off},
+  doi={10.1109/SP54263.2024.00088},
+  ISSN={2375-1207},
+  month={May},}
+
+Failed to scrape content from <pre> tag: 'charmap' codec can't encode character '\u03b5' in position 687: character maps to <undefined>
+END...DOI Index:  50  of  261
+
+
+START...DOI Index:  51  of  261
+https://doi.org/10.1109/SP54263.2024.00134
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646782,
+  author={Kutta, Tim and Askin, Önder and Dunsche, Martin},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Lower Bounds for Rényi Differential Privacy in a Black-Box Setting}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={951-971},
+  abstract={We present new methods for assessing the privacy guarantees of an algorithm with regard to Rényi Differential Privacy. To the best of our knowledge, this work is the first to address this problem in a black-box scenario, where only algorithmic outputs are available. To quantify privacy leakage, we devise a new estimator for the Rényi divergence of a pair of output distributions. This estimator is transformed into a statistical lower bound that is proven to hold for large samples with high probability. Our method is applicable for a broad class of algorithms, including many well-known examples from the privacy literature. We demonstrate the effectiveness of our approach by experiments encompassing algorithms and privacy enhancing methods that have not been considered in related works.},
+  keywords={Privacy;Differential privacy;Runtime;Closed box;Reliability theory;Probability;Security;Differential Privacy;Rényi Divergence;Privacy Validation},
+  doi={10.1109/SP54263.2024.00134},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  51  of  261
+
+
+START...DOI Index:  52  of  261
+https://doi.org/10.1109/SP54263.2024.00108
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646730,
+  author={Zhang, Kai and Zhang, Yanjun and Sun, Ruoxi and Tsai, Pei-Wei and Ul Hassan, Muneeb and Yuan, Xin and Xue, Minhui and Chen, Jinjun},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Bounded and Unbiased Composite Differential Privacy}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={972-990},
+  abstract={The objective of differential privacy (DP) is to protect privacy by producing an output distribution that is indistinguishable between any two neighboring databases. However, traditional differentially private mechanisms tend to produce unbounded outputs in order to achieve maximum disturbance range, which is not always in line with real-world applications. Existing solutions attempt to address this issue by employing post-processing or truncation techniques to restrict the output results, but at the cost of introducing bias issues. In this paper, we propose a novel differentially private mechanism which uses a composite probability density function to generate bounded and unbiased outputs for any numerical input data. The composition consists of an activation function and a base function, providing users with the flexibility to define the functions according to the DP constraints. We also develop an optimization algorithm that enables the iterative search for the optimal hyper-parameter setting without the need for repeated experiments, which prevents additional privacy overhead. Furthermore, we evaluate the utility of the proposed mechanism by assessing the variance of the composite probability density function and introducing two alternative metrics that are simpler to compute than variance estimation. Our extensive evaluation on three benchmark datasets demonstrates consistent and significant improvement over the traditional Laplace and Gaussian mechanisms. The proposed bounded and unbiased composite differentially private mechanism will underpin the broader DP arsenal and foster future privacy-preserving studies.},
+  keywords={Measurement;Privacy;Differential privacy;Perturbation methods;Noise;Probability density function;Iterative algorithms;Differential privacy;Unbiasedness;Boundedness},
+  doi={10.1109/SP54263.2024.00108},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  52  of  261
+
+
+START...DOI Index:  53  of  261
+https://doi.org/10.1109/SP54263.2024.00122
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646770,
+  author={Küchler, Nicolas and Opel, Emanuel and Lycklama, Hidde and Viand, Alexander and Hithnawi, Anwar},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Cohere: Managing Differential Privacy in Large Scale Systems}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={991-1008},
+  abstract={The need for a privacy management layer in today’s systems started to manifest with the emergence of new systems for privacy-preserving analytics and privacy compliance. As a result, many independent efforts have emerged that try to provide system support for privacy. Recently, the scope of privacy solutions used in systems has expanded to encompass more complex techniques such as Differential Privacy (DP). The use of these solutions in large-scale systems imposes new challenges and requirements. Careful planning and coordination are necessary to ensure that privacy guarantees are maintained across a wide range of heterogeneous applications and data systems. This requires new solutions for managing and allocating scarce and non-replenishable privacy resources. In this paper, we introduce Cohere, a new system that simplifies the use of DP in large-scale systems. Cohere implements a unified interface that allows heterogeneous applications to operate on a unified view of users’ data. In this work, we further address two pressing system challenges that arise in the context of real-world deployments: ensuring the continuity of privacy-based applications (i.e., preventing privacy budget depletion) and effectively allocating scarce shared privacy resources (i.e., budget) under complex preferences. Our experiments show that Cohere achieves a 6.4–28x improvement in utility compared to the state-of-the-art across a range of complex workloads.},
+  keywords={Privacy;Differential privacy;Pressing;Data systems;Large-scale systems;Planning;Systems support;Differential Privacy;Budget Management;Resource Allocation},
+  doi={10.1109/SP54263.2024.00122},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  53  of  261
+
+
+START...DOI Index:  54  of  261
+https://doi.org/10.1109/SP54263.2024.00124
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646789,
+  author={Feng, Shuya and Mohammady, Meisam and Wang, Han and Li, Xiaochen and Qin, Zhan and Hong, Yuan},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={DPI: Ensuring Strict Differential Privacy for Infinite Data Streaming}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1009-1027},
+  abstract={Streaming data, crucial for applications like crowd-sourcing analytics, behavior studies, and real-time monitoring, faces significant privacy risks due to the large and diverse data linked to individuals. In particular, recent efforts to release data streams, using the rigorous privacy notion of differential privacy (DP), have encountered issues with unbounded privacy leakage. This challenge limits their applicability to only a finite number of time slots ("finite data stream") or relaxation to protecting the events ("event or w-event DP") rather than all the records of users. A persistent challenge is managing the sensitivity of outputs to inputs in situations where users contribute many activities and data distributions evolve over time. In this paper, we present a novel technique for Differentially Private data streaming over Infinite disclosure (DPI) that effectively bounds the total privacy leakage of each user in infinite data streams while enabling accurate data collection and analysis. Furthermore, we also maximize the accuracy of DPI via a novel boosting mechanism. Finally, extensive experiments across various streaming applications and real datasets (e.g., COVID-19, Network Traffic, and USDA Production), show that DPI maintains high utility for infinite data streams in diverse settings. Code for DPI is available at https://github.com/ShuyaFeng/DPI.},
+  keywords={Differential privacy;Accuracy;Sensitivity;Telecommunication traffic;Production;Real-time systems;Security;Differential Privacy;Infinite Data Stream;Boosting Mechanism},
+  doi={10.1109/SP54263.2024.00124},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  54  of  261
+
+
+START...DOI Index:  55  of  261
+https://doi.org/10.1109/SP54263.2024.00212
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646786,
+  author={Jiang, Bo and Du, Jian and Sharma, Sagar and Yan, Qiang},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Budget Recycling Differential Privacy}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1028-1046},
+  abstract={Differential Privacy (DP) mechanisms usually force reduction in data utility by producing "out-of-bound" noisy results for a tight privacy budget. We introduce the Budget Recycling Differential Privacy (BR-DP) framework, designed to provide soft-bounded noisy outputs for a broad range of existing DP mechanisms. By "soft-bounded," we refer to the mechanism’s ability to release most outputs within a predefined error boundary, thereby improving utility and maintaining privacy simultaneously. The core of BR-DP consists of two components: a DP kernel responsible for generating a noisy answer per iteration, and a recycler that probabilistically recycles/regenerates or releases the noisy answer. We delve into the privacy accounting of BR-DP, culminating in the development of a budgeting principle that optimally sub-allocates the available budget between the DP kernel and the recycler. Furthermore, we introduce algorithms for tight BR-DP accounting in composition scenarios, and our findings indicate that BR-DP achieves reduced privacy leakage post-composition compared to DP. Additionally, we explore the concept of privacy amplification via subsampling within the BR-DP framework and propose optimal sampling rates for BR-DP across various queries. We experiment with real data, and the results demonstrate BR-DP’s effectiveness in lifting the utility-privacy tradeoff provided by DP mechanisms.},
+  keywords={Privacy;Differential privacy;Force;Probabilistic logic;Recycling;Noise measurement;Security;Differential Privacy;Utility optimization;Budget recycling},
+  doi={10.1109/SP54263.2024.00212},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  55  of  261
+
+
+START...DOI Index:  56  of  261
+https://doi.org/10.1109/SP54263.2024.00213
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646665,
+  author={Nanayakkara, Priyanka and Kim, Hyeok and Wu, Yifan and Sarvghad, Ali and Mahyar, Narges and Miklau, Gerome and Hullman, Jessica},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Measure-Observe-Remeasure: An Interactive Paradigm for Differentially-Private Exploratory Analysis}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1047-1064},
+  abstract={Differential privacy (DP) has the potential to enable privacy-preserving analysis on sensitive data, but requires analysts to judiciously spend a limited "privacy loss budget" ϵ across queries. Analysts conducting exploratory analyses do not, however, know all queries in advance and seldom have DP expertise. Thus, they are limited in their ability to specify ϵ allotments across queries prior to an analysis. To support analysts in spending ϵ efficiently, we propose a new interactive analysis paradigm, Measure-Observe-Remeasure, where analysts "measure" the database with a limited amount of ϵ, observe estimates and their errors, and remeasure with more ϵ as needed.We instantiate the paradigm in an interactive visualization interface which allows analysts to spend increasing amounts of ϵ under a total budget. To observe how analysts interact with the Measure-Observe-Remeasure paradigm via the interface, we conduct a user study that compares the utility of ϵ allocations and findings from sensitive data participants make to the allocations and findings expected of a rational agent who faces the same decision task. We find that participants are able to use the workflow relatively successfully, including using budget allocation strategies that maximize over half of the available utility stemming from ϵ allocation. Their loss in performance relative to a rational agent appears to be driven more by their inability to access information and report it than to allocate ϵ.},
+  keywords={Privacy;Differential privacy;Measurement uncertainty;Particle measurements;Resource management;Visual databases;Security;usable differential privacy;user study;visualization;statistical decision theory},
+  doi={10.1109/SP54263.2024.00213},
+  ISSN={2375-1207},
+  month={May},}
+
+Failed to scrape content from <pre> tag: 'charmap' codec can't encode character '\u03f5' in position 607: character maps to <undefined>
+END...DOI Index:  56  of  261
+
+
+START...DOI Index:  57  of  261
+https://doi.org/10.1109/SP54263.2024.00214
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646799,
+  author={Klivan, Sabrina and Höltervennhoff, Sandra and Panskus, Rebecca and Marky, Karola and Fahl, Sascha},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Everyone for Themselves? A Qualitative Study about Individual Security Setups of Open Source Software Contributors}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1065-1082},
+  abstract={To increase open-source software supply chain security, protecting the development environment of contributors against attacks is crucial. For example, contributors must protect authentication credentials for software repositories, code-signing keys, and their systems from malware.Previous incidents illustrated that open-source contributors struggle with protecting their development environment. In contrast to companies, open-source software projects cannot easily enforce security guidelines for development environments. Instead, contributors’ security setups are likely heterogeneous regarding chosen technologies and strategies.To the best of our knowledge, we perform the first in-depth qualitative investigation of the security of open-source software contributors’ individual security setups, their motivation, decision-making, and sentiments, and the potential impact on open-source software supply chain security. Therefore, we conduct 20 semi-structured interviews with a diverse set of experienced contributors to critical open-source software projects.Overall, we find that contributors have a generally high affinity for security. However, security practices are rarely discussed in the community or enforced by projects. Furthermore, we see a strong influence of social mechanisms, such as trust, respect, or politeness, further impeding the sharing of security knowledge and best practices.We conclude our work with a discussion of the impact of our findings on open-source software and supply chain security, and make recommendations for the open-source software community.},
+  keywords={Privacy;Supply chains;Ecosystems;Decision making;Passwords;Encryption;Security},
+  doi={10.1109/SP54263.2024.00214},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  57  of  261
+
+
+START...DOI Index:  58  of  261
+https://doi.org/10.1109/SP54263.2024.00022
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646745,
+  author={Jallow, Alfusainey and Schilling, Michael and Backes, Michael and Bugiel, Sven},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Measuring the Effects of Stack Overflow Code Snippet Evolution on Open-Source Software Security}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1083-1101},
+  abstract={This paper assesses the effects of Stack Overflow code snippet evolution on the security of open-source projects. Users on Stack Overflow actively revise posted code snippets, sometimes addressing bugs and vulnerabilities. Accordingly, developers that reuse code from Stack Overflow should treat it like any other evolving code dependency and be vigilant about updates. It is unclear whether developers are doing so, to what extent outdated code snippets from Stack Overflow are present in GitHub projects, and whether developers miss security-relevant updates to reused snippets.To shed light on those questions, we devised a method to 1) detect outdated code snippets versions from 1.5M Stack Overflow snippets in 11,479 popular GitHub projects and 2) detect security-relevant updates to those Stack Overflow code snippets not reflected in those GitHub projects. Our results show that developers did not update dependent code snippets when those evolved on Stack Overflow. We found that 2,405 code snippet versions reused in 2,109 GitHub projects were outdated, with 43 projects missing fixes to bugs and vulnerabilities on Stack Overflow. Those 43 projects containing outdated, insecure snippets were forked on average 1,085 times (max. 16,121), indicating that our results are likely a lower bound for affected code bases. An important insight from our work is that treating Stack Overflow code as purely static code impedes holistic solutions to the problem of copying insecure code from Stack Overflow. Instead, our results suggest that developers need tools that continuously monitor Stack Overflow for security warnings and code fixes for reused code snippets and not only warn during copy-pasting.},
+  keywords={Privacy;Codes;Computer bugs;Pipelines;Cloning;Security;Software measurement},
+  doi={10.1109/SP54263.2024.00022},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  58  of  261
+
+
+START...DOI Index:  59  of  261
+https://doi.org/10.1109/SP54263.2024.00058
+Failed to scrape content from <pre> tag: Message: element click intercepted: Element <button _ngcontent-ojd-c168="" class="xpl-btn-secondary">...</button> is not clickable at point (75, 560). Other element would receive the click: <span id="7134683c-cb8a-4495-b8d2-ab26d64f6f03__label" class=" osano-cm-content__message osano-cm-message ">...</span>
+  (Session info: chrome=131.0.6778.109)
+Stacktrace:
+	GetHandleVerifier [0x00903433+25059]
+	(No symbol) [0x0088CE34]
+	(No symbol) [0x0076BEC3]
+	(No symbol) [0x007B5D37]
+	(No symbol) [0x007B4189]
+	(No symbol) [0x007B1DAD]
+	(No symbol) [0x007B10AF]
+	(No symbol) [0x007A5FD7]
+	(No symbol) [0x007D1EFC]
+	(No symbol) [0x007A5A24]
+	(No symbol) [0x007D2194]
+	(No symbol) [0x007EB51E]
+	(No symbol) [0x007D1C96]
+	(No symbol) [0x007A3FAC]
+	(No symbol) [0x007A4F3D]
+	GetHandleVerifier [0x00BF5593+3113795]
+	GetHandleVerifier [0x00C0A25A+3198986]
+	GetHandleVerifier [0x00C02A32+3168226]
+	GetHandleVerifier [0x009A32A0+680016]
+	(No symbol) [0x0089577D]
+	(No symbol) [0x00892A28]
+	(No symbol) [0x00892BC5]
+	(No symbol) [0x00885820]
+	BaseThreadInitThunk [0x766C7BA9+25]
+	RtlInitializeExceptionChain [0x7750C0CB+107]
+	RtlClearBits [0x7750C04F+191]
+
+END...DOI Index:  59  of  261
+
+
+START...DOI Index:  60  of  261
+https://doi.org/10.1109/SP54263.2024.00140
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646865,
+  author={Aghakhani, Hojjat and Dai, Wei and Manoel, Andre and Fernandes, Xavier and Kharkar, Anant and Kruegel, Christopher and Vigna, Giovanni and Evans, David and Zorn, Ben and Sim, Robert},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={TrojanPuzzle: Covertly Poisoning Code-Suggestion Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1122-1140},
+  abstract={With tools like GitHub Copilot, automatic code suggestion is no longer a dream in software engineering. These tools, based on large language models, are typically trained on massive corpora of code mined from unvetted public sources. As a result, these models are susceptible to data poisoning attacks where an adversary manipulates the model’s training by injecting malicious data. Poisoning attacks could be designed to influence the model’s suggestions at run time for chosen contexts, such as inducing the model into suggesting insecure code payloads. To achieve this, prior attacks explicitly inject the insecure code payload into the training data, making the poison data detectable by static analysis tools that can remove such malicious data from the training set. In this work, we demonstrate two novel attacks, Covert and TrojanPuzzle, that can bypass static analysis by planting malicious poison data in out-of-context regions such as docstrings. Our most novel attack, TrojanPuzzle, goes one step further in generating less suspicious poison data by never explicitly including certain (suspicious) parts of the payload in the poison data, while still inducing a model that suggests the entire payload when completing code (i.e., outside docstrings). This makes TrojanPuzzle robust against signature-based dataset-cleansing methods that can filter out suspicious sequences from the training data. Our evaluation against models of two sizes demonstrates that both Covert and TrojanPuzzle have significant implications for practitioners when selecting code used to train or tune code-suggestion models.},
+  keywords={Training;Codes;Toxicology;Training data;Static analysis;Transformers;Data models;Large Language Models;Generative AI;Code Generation;Data Poisoning;Trustworthy AI},
+  doi={10.1109/SP54263.2024.00140},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  60  of  261
+
+
+START...DOI Index:  61  of  261
+https://doi.org/10.1109/SP54263.2024.00046
+Failed to scrape content from <pre> tag: Message: element click intercepted: Element <button _ngcontent-qse-c168="" class="xpl-btn-secondary">...</button> is not clickable at point (75, 560). Other element would receive the click: <span id="c2641102-3f4a-4e82-abea-758138af8e47__label" class=" osano-cm-content__message osano-cm-message ">...</span>
+  (Session info: chrome=131.0.6778.109)
+Stacktrace:
+	GetHandleVerifier [0x00903433+25059]
+	(No symbol) [0x0088CE34]
+	(No symbol) [0x0076BEC3]
+	(No symbol) [0x007B5D37]
+	(No symbol) [0x007B4189]
+	(No symbol) [0x007B1DAD]
+	(No symbol) [0x007B10AF]
+	(No symbol) [0x007A5FD7]
+	(No symbol) [0x007D1EFC]
+	(No symbol) [0x007A5A24]
+	(No symbol) [0x007D2194]
+	(No symbol) [0x007EB51E]
+	(No symbol) [0x007D1C96]
+	(No symbol) [0x007A3FAC]
+	(No symbol) [0x007A4F3D]
+	GetHandleVerifier [0x00BF5593+3113795]
+	GetHandleVerifier [0x00C0A25A+3198986]
+	GetHandleVerifier [0x00C02A32+3168226]
+	GetHandleVerifier [0x009A32A0+680016]
+	(No symbol) [0x0089577D]
+	(No symbol) [0x00892A28]
+	(No symbol) [0x00892BC5]
+	(No symbol) [0x00885820]
+	BaseThreadInitThunk [0x766C7BA9+25]
+	RtlInitializeExceptionChain [0x7750C0CB+107]
+	RtlClearBits [0x7750C04F+191]
+
+END...DOI Index:  61  of  261
+
+
+START...DOI Index:  62  of  261
+https://doi.org/10.1109/SP54263.2024.00215
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646801,
+  author={Schorlemmer, Taylor R. and Kalu, Kelechi G. and Chigges, Luke and Ko, Kyung Myung and Ishgair, Eman Abu and Bagchi, Saurabh and Torres-Arias, Santiago and Davis, James C.},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Signing in Four Public Software Package Registries: Quantity, Quality, and Influencing Factors}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1160-1178},
+  abstract={Many software applications incorporate open-source third-party packages distributed by public package registries. Guaranteeing authorship along this supply chain is a challenge. Package maintainers can guarantee package authorship through software signing. However, it is unclear how common this practice is, and whether the resulting signatures are created properly. Prior work has provided raw data on registry signing practices, but only measured single platforms, did not consider quality, did not consider time, and did not assess factors that may influence signing. We do not have up-to-date measurements of signing practices nor do we know the quality of existing signatures. Furthermore, we lack a comprehensive understanding of factors that influence signing adoption.This study addresses this gap. We provide measurements across three kinds of package registries: traditional software (Maven, PyPI), container images (Docker Hub), and machine learning models (Hugging Face). For each registry, we describe the nature of the signed artifacts as well as the current quantity and quality of signatures. Then, we examine longitudinal trends in signing practices. Finally, we use a quasi-experiment to estimate the effect that various factors had on software signing practices. To summarize our findings: (1) mandating signature adoption improves the quantity of signatures; (2) providing dedicated tooling improves the quality of signing; (3) getting started is the hard part — once a maintainer begins to sign, they tend to continue doing so; and (4) although many supply chain attacks are mitigable via signing, signing adoption is primarily affected by registry policy rather than by public knowledge of attacks, new engineering standards, etc. These findings highlight the importance of software package registry managers and signing infrastructure.},
+  keywords={Privacy;Software packages;Supply chains;Software systems;Software;Time measurement;Software measurement;signing;cryptography;security;pgp;gpg;digital signing;software signing;quasi experiment;git commit signing;docker content trust;software supply chain;provenance;package registry;factors;incentives;empirical software engineering;software reuse},
+  doi={10.1109/SP54263.2024.00215},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  62  of  261
+
+
+START...DOI Index:  63  of  261
+https://doi.org/10.1109/SP54263.2024.00138
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646699,
+  author={Gu, Yacong and Ying, Lingyun and Chai, Huajun and Pu, Yingyuan and Duan, Haixin and Gao, Xing},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={More Haste, Less Speed: Cache Related Security Threats in Continuous Integration Services}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1179-1197},
+  abstract={Continuous Integration (CI) platforms have widely adopted caching to speed up CI task executions by storing and reusing dependent packages. Unfortunately, CI cache also exposes new attack surfaces when cache objects are shared across trust boundaries. In this paper, we systematically investigate potential security threats of CI cache features in seven mainstream CI platforms (CIPs). We find that existing CIPs have isolation issues in their cache sharing and inheritance strategies, potentially raising cache poisoning and data leakage problems. By exploiting these vulnerable mechanisms, we further uncover four attack vectors enabling attackers to stealthily inject malicious code into the cache or steal sensitive data. Even worse, many CIPs provide vulnerable official cache templates that will mistakenly store and expose sensitive data in the cache by default. To understand the potential impact of our disclosed threats, we develop an analysis tool and conduct a large-scale measurement on open-source repositories. Our measurement results show that many popular repositories are potentially affected by these attacks. We also identify 78 repositories that expose their high-value secrets in cache objects and are at risk of secret leakage. We have duly reported identified vulnerabilities to corresponding stakeholders and received positive responses.},
+  keywords={Privacy;Prevention and mitigation;Organizations;Continuous integration;Vectors;Malware;Security;Software supply chain security;CI/CD Security;Cache Security},
+  doi={10.1109/SP54263.2024.00138},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  63  of  261
+
+
+START...DOI Index:  64  of  261
+https://doi.org/10.1109/SP54263.2024.00154
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646796,
+  author={Pérez, Sandra Rivera and Van Eeten, Michel and Gañán, Carlos H.},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Patchy Performance? Uncovering the Vulnerability Management Practices of IoT-Centric Vendors}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1198-1216},
+  abstract={The enduring problems with IoT security has shifted the attention of researchers and governments to the role of vendors. The security community is no stranger to the repeated claim that vendors are dropping the ball on security and privacy, with numerous papers highlighting the many vulnerabilities in IoT products. Are IoT-centric vendors performing worse than other vendors in the industry? To answer this question, we need to do more than simply count the number of vulnerabilities disclosed by each vendor. In our study we analyze the factors influencing the number of vulnerabilities per vendor, like its size, its location and the presence of a vulnerability disclosure policy. We then statistically estimate if IoT-centric vendors produce more vulnerabilities, while controlling for those other factors. The answer is that they do. We can more directly observe the security performance of a vendor by looking at its patching behavior. We collect a unique dataset on the availability and timeliness of patches for 2,741 IoT and non-IoT vulnerabilities from 104 leading vendors. We also collect data on a set of potential causal factors for vendor patching performance. This allows us to estimate a statistical model of factors to explain why some vendors do better than others. We find that IoT-centric vendors are no worse in terms of releasing patches for their vulnerabilities, in fact, they tend to release more patches on-time than non-IoT-centric vendors. Our study increases our understanding of the factors shaping IoT security and provides an empirical basis for regulatory interventions that aim to improve the security performance of IoT vendors.},
+  keywords={Industries;Privacy;Prevention and mitigation;Operating systems;Government;Computer bugs;Security},
+  doi={10.1109/SP54263.2024.00154},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  64  of  261
+
+
+START...DOI Index:  65  of  261
+https://doi.org/10.1109/SP54263.2024.00216
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646685,
+  author={Ma, Zhuo and Yang, Yilong and Liu, Yang and Yang, Tong and Liu, Xinjing and Li, Teng and Qin, Zhan},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Need for Speed: Taming Backdoor Attacks with Speed and Precision}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1217-1235},
+  abstract={Modern deep neural network models (DNNs) require extensive data for optimal performance, prompting reliance on multiple entities for the acquisition of training datasets. One prominent security threat is backdoor attacks where the adversary party poisons a small subset of training datasets to implant a backdoor into the model, leading to misclassifications during runtime for triggered samples. To mitigate the attack, many defense methods have been proposed, such as detecting and removing poisoned samples or rectifying trojaned model weights in victim DNNs. However, existing approaches suffer from notable inefficiency as they are faced with large-scale training datasets, consequently rendering these defenses impractical in the real world. In this paper, we propose a lightweight backdoor identification and removal scheme, called ReBack. In this scheme, ReBack first extracts a subset of suspicious and benign samples, and then, proceeds with a "averaging and differencing" based method to identify target label(s). Next, leveraging the identification results, ReBack invokes a novel reverse engineering method to recover the exact trigger using only basic arithmetic atoms. Our experiments demonstrate that, for ImageNet with 750 labels, ReBack can defend against backdoor attacks in around 2 hours, showcasing a speed improvement of 18.5× to 214× compared to existing methods. For backdoor removal, the attack success rate can be decreased to 0.05% owing to 99% cosine similarity of the reversed triggers. The code is online available.},
+  keywords={Training;Privacy;Toxicology;Runtime;Reverse engineering;Inspection;Rendering (computer graphics);Backdoor Defense;Machine Learning},
+  doi={10.1109/SP54263.2024.00216},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  65  of  261
+
+
+START...DOI Index:  66  of  261
+https://doi.org/10.1109/SP54263.2024.00006
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646677,
+  author={Nazzal, Mahmoud and Khalil, Issa and Khreishah, Abdallah and Phan, NhatHai and Ma, Yao},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Multi-Instance Adversarial Attack on GNN-Based Malicious Domain Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1236-1254},
+  abstract={Malicious domain detection (MDD) is an open security challenge that aims to detect if an Internet domain name is associated with cyber attacks. Many techniques have been applied to tackle this problem, among which graph neural networks (GNNs) are deemed one of the most effective approaches. GNN-based MDD employs domain name system (DNS) logs to represent Internet domains as nodes in a graph, dubbed domain maliciousness graph (DMG) and trains a GNN model to infer the maliciousness of Internet domains by leveraging the maliciousness of already identified ones. As this method heavily relies on the "publicly" accessible DNS logs to build DMGs, it creates a vulnerability for adversaries to manipulate the features and edges of their domain nodes within these graphs. The current body of literature primarily focuses on threat models that involve manipulating individual adversary (attacker) nodes. Nonetheless, adversaries usually create numerous domains to accomplish their attack objectives, aiming to reduce costs and evade detection. Hence, they aim to remain undetected across as many domains as possible. In this work, we call the attack that manipulates several nodes in the DMG concurrently a multi-instance evasion attack. To the best of our knowledge, this type of attack has not been explored in the prior art. We present both theoretical and empirical evidence to show that the existing single-instance evasion techniques for GNN-based MDDs are inadequate to launch multi-instance evasion attacks. Therefore, we propose an inference-time, multi-instance adversarial attack, dubbed MintA, against GNN-based MDD. MintA optimizes node perturbations to enhance the evasiveness of a node and its neighborhood. MintA only requires black-box access to the target model to launch the attack successfully. In other words, MintA does not require any knowledge of the MDD model’s parameters, architecture, or information on non-adversary nodes. We formulate an optimization problem that satisfies the attack objectives of MintA and devise an approximate solution for it. We evaluate MintA on a state-of-the-art GNN-based MDD technique using real-world data, and our experiments demonstrate an attack success rate of over 80%. The findings of this study serve as a cautionary note for security experts, highlighting the vulnerability of GNN-based MDD to practical attacks that can impede the effectiveness and advantages of this approach.},
+  keywords={Threat modeling;Privacy;Costs;Purification;Perturbation methods;Image edge detection;Graph neural networks;Adversarial attack;malicious domain detection;DNS logs;inference time attack},
+  doi={10.1109/SP54263.2024.00006},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  66  of  261
+
+
+START...DOI Index:  67  of  261
+https://doi.org/10.1109/SP54263.2024.00026
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646869,
+  author={Yuan, Andrew and Oprea, Alina and Tan, Cheng},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Dropout Attacks}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1255-1269},
+  abstract={Dropout is a common operator in deep learning, aiming to prevent overfitting by randomly dropping neurons during training. This paper introduces a new family of poisoning attacks against neural networks named DROPOUTATTACK. DROPOUTATTACK attacks the dropout operator by manipulating the selection of neurons to drop instead of selecting them uniformly at random. We design, implement, and evaluate four DROPOUTATTACK variants that cover a broad range of scenarios. These attacks can slow or stop training, destroy prediction accuracy of target classes, and sabotage either precision or recall of a target class. In our experiments of training a VGG-16 model on CIFAR-100, our attack can reduce the precision of the victim class by 34.6% (81.7% → 47.1%) without incurring any degradation in model accuracy.},
+  keywords={Training;Measurement;Degradation;Deep learning;Privacy;Accuracy;Neurons;ML security;ML attacks},
+  doi={10.1109/SP54263.2024.00026},
+  ISSN={2375-1207},
+  month={May},}
+
+Failed to scrape content from <pre> tag: 'charmap' codec can't encode character '\u2192' in position 1009: character maps to <undefined>
+END...DOI Index:  67  of  261
+
+
+START...DOI Index:  68  of  261
+https://doi.org/10.1109/SP54263.2024.00068
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646713,
+  author={Wan, Jie and Fu, Jianhao and Wang, Lijin and Yang, Ziqi},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={BounceAttack: A Query-Efficient Decision-based Adversarial Attack by Bouncing into the Wild}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1270-1286},
+  abstract={Deep neural networks are vulnerable to adversarial attacks. We study such threats in the decision-based black-box setting where the adversary could obtain only the predicted labels of the victim classifier within limited queries and aims at performing targeted and untargeted adversarial attacks under different perturbation constraints. In this paper, we propose BounceAttack as a query-efficient attack method. We propose the bounce vector which encourages the iterations to maximally explore the adversarial space towards the optimal adversarial example within limited queries to improve the query efficiency. We perform extensive experiments on various benchmark datasets and models. Experimental results show that BounceAttack achieves both high query efficiency and small perturbation size. BounceAttack outperforms existing attack methods. For example, BounceAttack achieves 48.1% smaller perturbation compared to the state-of-the-art attack methods on average using the same number of model queries.},
+  keywords={Privacy;Perturbation methods;Closed box;Artificial neural networks;Benchmark testing;Vectors;Space exploration},
+  doi={10.1109/SP54263.2024.00068},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  68  of  261
+
+
+START...DOI Index:  69  of  261
+https://doi.org/10.1109/SP54263.2024.00030
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646724,
+  author={Zhao, Joshua C. and Sharma, Atul and Elkordy, Ahmed Roushdy and Ezzeldin, Yahya H. and Avestimehr, Salman and Bagchi, Saurabh},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Loki: Large-scale Data Reconstruction Attack against Federated Learning through Model Manipulation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1287-1305},
+  abstract={Federated learning was introduced to enable machine learning over large decentralized datasets while promising privacy by eliminating the need for data sharing. Despite this, prior work has shown that shared gradients often contain private information and attackers can gain knowledge either through malicious modification of the architecture and parameters or by using optimization to approximate user data from the shared gradients.However, prior data reconstruction attacks have been limited in setting and scale, as most works target FedSGD and limit the attack to single-client gradients. Many of these attacks fail in the more practical setting of FedAVG or if updates are aggregated together using secure aggregation. Data reconstruction becomes significantly more difficult, resulting in limited attack scale and/or decreased reconstruction quality. When both FedAVG and secure aggregation are used, there is no current method that is able to attack multiple clients concurrently in a federated learning setting.In this work we introduce Loki, an attack that overcomes previous limitations and also breaks the anonymity of aggregation as the leaked data is identifiable and directly tied back to the clients they come from. Our design sends clients customized convolutional parameters, and the weight gradients of data points between clients remain separate even through aggregation. With FedAVG and aggregation across 100 clients, prior work can leak less than 1% of images on MNIST, CIFAR-100, and Tiny ImageNet. Using only a single training round, Loki is able to leak 76-86% of all data samples.},
+  keywords={Training;Data privacy;Privacy;Federated learning;Data models;Servers;Security},
+  doi={10.1109/SP54263.2024.00030},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  69  of  261
+
+
+START...DOI Index:  70  of  261
+https://doi.org/10.1109/SP54263.2024.00072
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646694,
+  author={Cong, Tianshuo and He, Xinlei and Shen, Yun and Zhang, Yang},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Test-Time Poisoning Attacks Against Test-Time Adaptation Models}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1306-1324},
+  abstract={Deploying machine learning (ML) models in the wild is challenging as it suffers from distribution shifts, where the model trained on an original domain cannot generalize well to unforeseen diverse transfer domains. To address this challenge, several test-time adaptation (TTA) methods have been proposed to improve the generalization ability of the target pre-trained models under test data to cope with the shifted distribution. The success of TTA can be credited to the continuous fine-tuning of the target model according to the distributional hint from the test samples during test time. Despite being powerful, it also opens a new attack surface, i.e., test-time poisoning attacks, which are substantially different from previous poisoning attacks that occur during the training time of ML models (i.e., adversaries cannot intervene in the training process). In this paper, we perform the first test-time poisoning attack against four mainstream TTA methods, including TTT, DUA, TENT, and RPL. Concretely, we generate poisoned samples based on the surrogate models and feed them to the target TTA models. Experimental results show that the TTA methods are generally vulnerable to test-time poisoning attacks. For instance, the adversary can feed as few as 10 poisoned samples to degrade the performance of the target model from 76.20% to 41.83%. Our results demonstrate that TTA algorithms lacking a rigorous security assessment are unsuitable for deployment in real-life scenarios. As such, we advocate for the integration of defenses against test-time poisoning attacks into the design of TTA methods.1},
+  keywords={Training;Degradation;Adaptation models;Privacy;Toxicology;Transform coding;Safety},
+  doi={10.1109/SP54263.2024.00072},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  70  of  261
+
+
+START...DOI Index:  71  of  261
+https://doi.org/10.1109/SP54263.2024.00217
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646844,
+  author={Choudhary, Sarthak and Kolluri, Aashish and Saxena, Prateek},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Attacking Byzantine Robust Aggregation in High Dimensions}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1325-1344},
+  abstract={Training modern neural networks or models typically requires averaging over a sample of high-dimensional vectors. Poisoning attacks can skew or bias the average vectors used to train the model, forcing the model to learn specific patterns or avoid learning anything useful. Byzantine robust aggregation is a principled algorithmic defense against such biasing. Robust aggregators can bound the maximum bias in computing centrality statistics, such as mean, even when some fraction of inputs are arbitrarily corrupted. Designing such aggregators is challenging when dealing with high dimensions. However, the first polynomial-time algorithms with strong theoretical bounds on the bias have recently been proposed. Their bounds are independent of the number of dimensions, promising a conceptual limit on the power of poisoning attacks in their ongoing arms race against defenses.In this paper, we show a new attack called HiDRA on practical realization of strong defenses which subverts their claim of dimension-independent bias. HiDRA highlights a novel computational bottleneck that has not been a concern of prior information-theoretic analysis. Our experimental evaluation shows that our attacks almost completely destroy the model performance, whereas existing attacks with the same goal fail to have much effect. Our findings leave the arms race between poisoning attacks and provable defenses wide open.},
+  keywords={Training;Privacy;Program processors;Computational modeling;Weapons;Neural networks;Vectors;Byzantine Robust Aggregation;Robust Mean Estimation;Poisoning Attacks;Federated Learning},
+  doi={10.1109/SP54263.2024.00217},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  71  of  261
+
+
+START...DOI Index:  72  of  261
+https://doi.org/10.1109/SP54263.2024.00218
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646817,
+  author={Ben-Tov, Matan and Deutch, Daniel and Frost, Nave and Sharif, Mahmood},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={CaFA: Cost-aware, Feasible Attacks With Database Constraints Against Neural Tabular Classifiers}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1345-1364},
+  abstract={This work presents CaFA, a system for Cost-aware Feasible Attacks for assessing the robustness of neural tabular classifiers against adversarial examples realizable in the problem space, while minimizing adversaries’ effort. To this end, CaFA leverages TabPGD—an algorithm we set forth to generate adversarial perturbations suitable for tabular data— and incorporates integrity constraints automatically mined by state-of-the-art database methods. After producing adversarial examples in the feature space via TabPGD, CaFA projects them on the mined constraints, leading, in turn, to better attack realizability. We tested CaFA with three datasets and two architectures and found, among others, that the constraints we use are of higher quality (measured via soundness and completeness) than ones employed in prior work. Moreover, CaFA achieves higher feasible success rates—i.e., it generates adversarial examples that are often misclassified while satisfying constraints—than prior attacks while simultaneously perturbing few features with lower magnitudes, thus saving effort and improving inconspicuousness. We open-source CaFA,1 hoping it will serve as a generic system enabling machine-learning engineers to assess their models’ robustness against realizable attacks, thus advancing deployed models’ trustworthiness.},
+  keywords={Privacy;Costs;Databases;Perturbation methods;Machine learning;Robustness;Data models;Adversarial machine learning;Tabular data;Neural networks;Adversarial robustness},
+  doi={10.1109/SP54263.2024.00218},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  72  of  261
+
+
+START...DOI Index:  73  of  261
+https://doi.org/10.1109/SP54263.2024.00032
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646831,
+  author={Pasquini, Dario and Ateniese, Giuseppe and Troncoso, Carmela},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Universal Neural-Cracking-Machines: Self-Configurable Password Models from Auxiliary Data}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1365-1384},
+  abstract={We introduce the concept of "universal" password model—a password model that, once pre-trained, can automatically adapt its guessing strategy based on the target system. To achieve this, the model does not need to access any plaintext passwords from the target credentials. Instead, it exploits users’ auxiliary information, such as email addresses, as a proxy signal to predict the underlying password distribution.Specifically, the model uses deep learning to capture the correlation between the auxiliary data of a group of users (e.g., users of a web application) and their passwords. It then exploits those patterns to create a tailored password model for the target system at inference time. No further training steps, targeted data collection, or prior knowledge of the community’s password distribution is required.Besides improving over current password strength estimation techniques, the model enables any end-user (e.g., system administrators) to autonomously generate tailored password models for their systems without the often unworkable requirements of collecting suitable training data and fitting the underlying machine learning model. Ultimately, our framework enables the democratization of well-calibrated password models to the community, addressing a major challenge in the deployment of password security solutions at scale.},
+  keywords={Deep learning;Training;Adaptation models;Privacy;Fitting;Training data;Passwords;password guessing;deep learning;differential privacy},
+  doi={10.1109/SP54263.2024.00032},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  73  of  261
+
+
+START...DOI Index:  74  of  261
+https://doi.org/10.1109/SP54263.2024.00020
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646687,
+  author={Kim, Jaehan and Song, Minkyoo and Seo, Minjae and Jin, Youngjin and Shin, Seungwon},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={PassREfinder: Credential Stuffing Risk Prediction by Representing Password Reuse between Websites on a Graph}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1385-1404},
+  abstract={The prevalence of credential stuffing has caused devastating harm to online users who tend to reuse passwords across websites. In response, researchers have made efforts to detect users who set the same passwords or malicious logins. However, existing detection methods sacrifice the usability of passwords by inhibiting password creation or website access. Moreover, the complicated mechanisms for sharing account information hinder their deployment in practice. In this work, we propose a risk prediction framework to prevent credential stuffing attacks before disrupting user behaviors rather than relying on detection. To this end, we newly define the relationship between websites in which users are highly likely to reuse passwords and represent it as an edge on a website graph using graph neural networks. We then perform a link prediction task to identify the risk of credential stuffing between websites. Our framework is applicable to a large number of arbitrary websites by utilizing public website information and linking newly observed website nodes to the graph. The evaluation on a real-world credential dataset consisting of 360 million accounts breached from 22,378 websites shows that our model successfully predicts credential stuffing risk among websites by achieving F1-scores of 0.9559 and 0.9100 in two different graph learning settings, respectively. In addition, we demonstrate the effectiveness of each design strategy and validate that the prediction results can be utilized to quantify the expected rates of password reuse as risk scores.},
+  keywords={Privacy;Image edge detection;Passwords;Predictive models;Feature extraction;Graph neural networks;Security;Password authentication;Credential stuffing;Graph neural network},
+  doi={10.1109/SP54263.2024.00020},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  74  of  261
+
+
+START...DOI Index:  75  of  261
+https://doi.org/10.1109/SP54263.2024.00114
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646859,
+  author={Pasquini, Dario and Francati, Danilo and Ateniese, Giuseppe and Kornaropoulos, Evgenios M.},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Breach Extraction Attacks: Exposing and Addressing the Leakage in Second Generation Compromised Credential Checking Services}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1405-1423},
+  abstract={Credential tweaking attacks use breached passwords to generate semantically similar passwords and gain access to victims’ services. These attacks sidestep the first generation of compromised credential checking (C3) services. The second generation of compromised credential checking services, called “Might I Get Pwned” (MIGP), is a privacy-preserving protocol that defends against credential tweaking attacks by allowing clients to query whether a password or a semantically similar variation is present in the server’s compromised credentials dataset. The desired privacy requirements include not revealing the user’s entered password to the server and ensuring that no compromised credentials are disclosed to the client.In this work, we formalize the cryptographic leakage of the MIGP protocol and perform a security analysis to assess its impact on the credentials held by the server. We focus on how this leakage aids breach extraction attacks, where an honest-but-curious client interacts with the server to extract information about the stored credentials. Furthermore, we discover additional leakage that arises from the implementation of Cloudflare’s deployment of MIGP. We evaluate how the discovered leakage affects the guessing capability of an attacker in relation to breach extraction attacks. Finally, we propose MIGP 2.0, a new iteration of the MIGP protocol designed to minimize data leakage and prevent the introduced attacks.},
+  keywords={Data privacy;Privacy;Humanities;Scalability;Passwords;Servers;Cryptography},
+  doi={10.1109/SP54263.2024.00114},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  75  of  261
+
+
+START...DOI Index:  76  of  261
+https://doi.org/10.1109/SP54263.2024.00219
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646787,
+  author={Duan, Fei and Wang, Ding and Jia, Chunfu},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={A Security Analysis of Honey Vaults}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1424-1442},
+  abstract={Honey encryption (HE) protected password vaults (called honey vaults) are promising tools that allow a user to store multiple passwords (called a password vault) and encrypt them with a master password using HE. In case password vaults are somehow leaked and the attackers launch offline password guessing, honey vaults can yield decoy password vaults for incorrect guesses, forcing an offline guessing attacker to interact with the authentication server to identify whether passwords in decrypted vaults are correct or not. Therefore, honey vaults transform the offline guessing attacker into an online guessing attacker, i.e., honey vault distinguishing attacker.In online guessing, attackers can adopt various attacks to perform multiple guesses against multiple vaults, but the existing theoretical message recovery (MR) security for HE only focuses on the advantage of one-time guess against a single vault, which cannot accurately model realistic attackers and thus can not provide practical advice for users’ vault security. To address this issue, we propose a theoretically-grounded optimal strategy for distinguishing attackers, and manage to derive a much tighter upper bound on the advantage against MR security. Particularly, we provide much tighter upper/lower bounds for advantage against HE-related cryptographic security games, i.e., the security of distribution transforming encoder (DTE), known message attack, and known side information attack. This provides a better understanding of the actual security of honey encryption.To better understand the security of honey vault systems, we instantiate our optimal strategy into three practical attacks and propose an encoding attack. Extensive experiments against two major honey vault systems demonstrate that our four attacks can improve the attack success rate by 1.15-4.35 times compared with their counterparts. For the intersection attack, we propose a feature attack against Cheng et al.’s incremental update mechanism (at USENIX SEC’21), and our attack can breach their mechanism with 87%-93% advantage.},
+  keywords={Privacy;Upper bound;Authentication;Passwords;Games;Transforms;Encoding},
+  doi={10.1109/SP54263.2024.00219},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  76  of  261
+
+
+START...DOI Index:  77  of  261
+https://doi.org/10.1109/SP54263.2024.00041
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646876,
+  author={Jayaraman, Bargav and Ghosh, Esha and Chase, Melissa and Roy, Sambuddha and Dai, Wei and Evans, David},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Combing for Credentials: Active Pattern Extraction from Smart Reply}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1443-1461},
+  abstract={Pre-trained large language models, such as GPT-2 and BERT, are often fine-tuned to achieve state-of-the-art performance on a downstream task. One natural example is the "Smart Reply" application where a pre-trained model is tuned to provide suggested responses for a given query message. Since the tuning data is often sensitive data such as emails or chat transcripts, it is important to understand and mitigate the risk that the model leaks its tuning data. We investigate potential information leakage vulnerabilities in a typical Smart Reply pipeline. We consider a realistic setting where the adversary can only interact with the underlying model through a frontend interface that constrains what types of queries can be sent to the model. Previous attacks do not work in these settings, but require the ability to send unconstrained queries directly to the model. Even when there are no constraints on the queries, previous attacks typically require thousands, or even millions, of queries to extract useful information, while our attacks can extract sensitive data in just a handful of queries. We introduce a new type of active extraction attack that exploits canonical patterns in text containing sensitive data. We show experimentally that it is possible for an adversary to extract sensitive user information present in the training data, even in realistic settings where all interactions with the model must go through a front-end that limits the types of queries. We explore potential mitigation strategies and demonstrate empirically how differential privacy appears to be a reasonably effective defense mechanism to such pattern extraction attacks.},
+  keywords={Training;Privacy;Differential privacy;Pipelines;Training data;Machine learning;Data models;smart reply;pattern extraction;differential privacy;language models},
+  doi={10.1109/SP54263.2024.00041},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  77  of  261
+
+
+START...DOI Index:  78  of  261
+https://doi.org/10.1109/SP54263.2024.00220
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646820,
+  author={Debnath, Joyanta and Jenkins, Christa and Sun, Yuteng and Chau, Sze Yiu and Chowdhury, Omar},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={ARMOR: A Formally Verified Implementation of X.509 Certificate Chain Validation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1462-1480},
+  abstract={We present ARMOR, the first substantial effort towards an X.509 certificate chain validation logic (CCVL) implementation with formal, machine-checked correctness guarantees for a large portion of RFC 5280. ARMOR is designed with the twofold goal of providing 1) a formal, machine checked alternative to the RFC specifications, and 2) a reference implementation and test oracle. ARMOR features a modular architecture in which the X.509 CCVL is decomposed into several modules, each of which is independently specified, implemented, and verified. Currently, the formally verified modules of ARMOR include those for the specification and parsing of (subsets of) the PEM and ASN.1 X.690 DER languages, certificate chain building, and many semantic properties concerning required properties of fields within a single certificate and across certificates in a chain. To empirically evaluate its achievement of these goals, we compare ARMOR with 11 open-source X.509 implementations and an open-source certificate linter for its specificational accuracy and runtime overhead. In our evaluation, although ARMOR incurs a high overhead, through its use we are able to detect several noncompliances. Finally, we show an end-to-end application of ARMOR by integrating it with the TLS 1.3 implementation of BoringSSL and testing it with Curl.},
+  keywords={Privacy;Runtime;Accuracy;Buildings;Semantics;Software;Libraries},
+  doi={10.1109/SP54263.2024.00220},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  78  of  261
+
+
+START...DOI Index:  79  of  261
+https://doi.org/10.1109/SP54263.2024.00096
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646658,
+  author={Ammann, Max and Hirschi, Lucca and Kremer, Steve},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={DY Fuzzing: Formal Dolev-Yao Models Meet Cryptographic Protocol Fuzz Testing}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1481-1499},
+  abstract={Critical and widely used cryptographic protocols have repeatedly been found to contain flaws in their design and their implementation. A prominent class of such vulnerabilities is logical attacks, e.g. attacks that exploit flawed protocol logic. Automated formal verification methods, based on the Dolev-Yao (DY) attacker, formally define and excel at finding such flaws, but operate only on abstract specification models. Fully automated verification of existing protocol implementations is today still out of reach. This leaves open whether such implementations are secure. Unfortunately, this blind spot hides numerous attacks, such as recent logical attacks on widely used TLS implementations introduced by implementation bugs.We answer by proposing a novel and effective technique that we call DY model-guided fuzzing, which precludes logical attacks against protocol implementations. The main idea is to consider as possible test cases the set of abstract DY executions of the DY attacker, and use a novel mutation-based fuzzer to explore this set. The DY fuzzer concretizes each abstract execution to test it on the program under test. This approach enables reasoning at a more structural and security-related level of messages represented as formal terms (e.g. decrypt a message and re-encrypt it with a different key) as opposed to random bit-level modifications that are much less likely to produce relevant logical adversarial behaviors. We implement a full-fledged and modular DY protocol fuzzer. We demonstrate its effectiveness by fuzzing three popular TLS implementations, resulting in the discovery of four novel vulnerabilities.},
+  keywords={Privacy;Fuzzing;Cognition;Security;Logic;Cryptographic protocols;Formal verification;Formal methods and verification;Program and binary analysis;Protocol security;Systems security;Fuzzing;Test},
+  doi={10.1109/SP54263.2024.00096},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  79  of  261
+
+
+START...DOI Index:  80  of  261
+https://doi.org/10.1109/SP54263.2024.00094
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646604,
+  author={Rautenstrauch, Jannis and Mitkov, Metodi and Helbrecht, Thomas and Hetterich, Lorenz and Stock, Ben},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={To Auth or Not To Auth? A Comparative Analysis of the Pre- and Post-Login Security Landscape}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1500-1516},
+  abstract={The web has evolved from a way to serve static content into a full-fledged application platform. Given its pervasive presence in our daily lives, it is therefore imperative to conduct studies that accurately reflect the state of security on the web. Many research works have focussed on detecting vulnerabilities, measuring security header deployment, or identifying roadblocks to a more secure web. To conduct these studies at a large scale, they all have a common denominator: they operate in automated fashions without human interaction, i.e., visit applications in an unauthenticated manner.To understand whether this unauthenticated view of the web accurately reflects its security as observed by regular users, we conduct a comparative analysis of 200 websites. By relying on a semi-automated framework to log into applications and crawl them, we analyze the differences between unauthenticated and authenticated states w.r.t. client-side XSS flaws, usage of security headers, postMessage handlers, and JavaScript inclusions. In doing so, we discover that the unauthenticated web could provide a significantly skewed picture of security depending on the type of research question.},
+  keywords={Privacy;Atmospheric measurements;Authentication;Particle measurements;Market research;Libraries;Security;Web Measurement;Login Automation;Cross-Site Scripting;Web Security},
+  doi={10.1109/SP54263.2024.00094},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  80  of  261
+
+
+START...DOI Index:  81  of  261
+https://doi.org/10.1109/SP54263.2024.00118
+BibTeX w/ abstract:
+@INPROCEEDINGS{10646733,
+  author={Moti, Zahra and Senol, Asuman and Bostani, Hamid and Borgesius, Frederik Zuiderveen and Moonsamy, Veelasha and Mathur, Arunesh and Acar, Gunes},
+  booktitle={2024 IEEE Symposium on Security and Privacy (SP)}, 
+  title={Targeted and Troublesome: Tracking and Advertising on Children’s Websites}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1517-1535},
+  abstract={On the modern web, trackers and advertisers frequently construct and monetize users’ detailed behavioral profiles without consent. Despite various studies on web tracking mechanisms and advertisements, there has been no rigorous study focusing on websites targeted at children. To address this gap, we present a measurement of tracking and (targeted) advertising on websites directed at children. Motivated by the lack of a comprehensive list of child-directed (i.e., targeted at children) websites, we first build a multilingual classifier based on web page titles and descriptions. Applying this classifier to over two million pages from the Common Crawl dataset, we compile a list of two thousand child-directed websites. Crawling these sites from five vantage points, we measure the prevalence of trackers, fingerprinting scripts, and advertisements. Our crawler detects ads displayed on child-directed websites and determines if ad targeting is enabled by scraping ad disclosure pages whenever available. Our results show that around 90% of child-directed websites embed one or more trackers, and about 27% contain targeted advertisements—a practice that should require verifiable parental consent. Next, we identify improper ads on child-directed websites by developing an ML pipeline that processes both images and text extracted from ads. The pipeline allows us to run semantic similarity queries for arbitrary search terms, revealing ads that promote services related to dating, weight loss, and mental health, as well as ads for sex toys and flirting chat services. Some of these ads feature repulsive, sexually-explicit and highly-inappropriate imagery. In summary, our findings indicate a trend of non-compliance with privacy regulations and troubling ad safety practices among many advertisers and child-directed websites. To ensure the protection of children and create a safer online environment, regulators and stakeholders must adopt and enforce more stringent measures. Keywords – online tracking, advertising, children, privacy},
+  keywords={Pediatrics;Privacy;Target tracking;Pipelines;Toy manufacturing industry;Web pages;Mental health;online tracking;advertising;children;privacy},
+  doi={10.1109/SP54263.2024.00118},
+  ISSN={2375-1207},
+  month={May},}
+
+END...DOI Index:  81  of  261
